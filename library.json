@@ -1,0 +1,4908 @@
+{
+  "version": "1.0",
+  "source": "nanobanana+keetrax",
+  "templates": [
+    {
+      "id": "82948245-cde0-4a30-a60c-884c28d1d813",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "product-photo",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0578d485-4f7d-41c5-ada4-2cce3d6a76c0.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8e9486e7-05d6-4a0d-b86f-2e33d371079a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e1d40544-14c1-414a-bda6-29677efbbf77.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "2f39370a-e7dd-40c9-ac74-b34319391a71",
+      "source": "nanobanana",
+      "name": "Floating Product With Specification Footer (Empty Template)",
+      "description": "A split-background design featuring a floating 3D product on the right, bold benefit text on the left, and a 3-column footer. Ready for custom input.",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "grid",
+        "headline",
+        "infographic",
+        "ingredients",
+        "natural",
+        "pets",
+        "split-layout",
+        "white-bg"
+      ],
+      "mood": [
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670862-8-1NgI0sI-.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2b52e49b-97c7-4ae3-9c29-3def5d328b06.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/74cf8f5b-fa0b-4ee0-8c12-1164ffa8a159.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/10bf9db2-e841-453e-87d5-37ba1c838444.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "e3d7a38e-5057-4be1-ab7d-2d68fc6c45de",
+      "source": "nanobanana",
+      "name": "Shopify Duo Showcase Reference V1",
+      "description": "Unboxed product container",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "logo-featured",
+        "luxury",
+        "product-photo"
+      ],
+      "mood": [
+        "premium"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a8f34e30-9af9-4219-a9f3-69f606a5c66c.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685533-15-120Z7Zt6.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "4ba7a86e-8285-46ce-acc7-89b2bfdde068",
+      "source": "nanobanana",
+      "name": "3-Column Product Center Ecommerce Image Topview",
+      "description": "A template where the main product image is placed in the center card with a top-down diagonal view, flanked by two generated cards showing product contents/accessories.",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "flat-lay",
+        "grid",
+        "headline",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "pets"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345671543-9-1aW-BZqH.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e2f1b0ee-0094-477e-8a63-0944cf7907cd.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/150edf66-4784-42a9-bbf3-11bb5b3ada30.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "f12703f3-079c-4802-8058-778d5b5ee9b9",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "hands",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "playful",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685666-20-1Ywlm6oH.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/74c8e814-deb6-4b4b-b1b2-07e4bfc3de72.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "32bbf763-7819-4e99-b8f0-7d91f63369e9",
+      "source": "nanobanana",
+      "name": "Product Benefit Map Empty",
+      "description": "[INSERT VISUAL DESCRIPTION OF PRODUCT (e.g: A cylindrical skincare bottle with a smooth light blue body)]",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "banner",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "grid",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "minimal",
+        "natural",
+        "sale",
+        "social-proof"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/cc9667f2-4dd7-4119-accd-66492ce6630f.webp",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c1f8b60a-ed09-4ec9-a40e-8c25137277f6.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "4b8c6435-956a-4d0b-ae06-68b65aae07b0",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "pastel-bg",
+        "playful",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9d479a88-02a7-4491-a1d6-8c89a0e8fd66.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/76bc9656-1b2e-4c5b-ab6e-6b5980d6edda.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "9044271c-d429-43e7-99f9-3e8e7daece67",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "hands",
+        "headline",
+        "home-electronics",
+        "ingredients",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "playful",
+        "product-photo",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/cc8b7ab5-468e-4f9e-9dd6-7e169822f665.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8418fa74-df1e-4f9e-a568-ca337d55ea55.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2ae7d2f0-afd8-4511-8ded-de2a4809038b.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670857-3-1zyRcnk-.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "0e5919b3-9abe-48b0-bcd9-eee88ca0746e",
+      "source": "nanobanana",
+      "name": "Sun Kissed Lifestyle Portrait Right Facing",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "hands",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "warm"
+      ],
+      "mood": [
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/bc187b93-0f9e-4d7f-a560-222d2a0b280a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/910ae782-b24a-4373-a0d5-18edbeaffd78.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2aca156f-414b-4f14-a713-ca77765520de.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b9e9cca5-18a4-41c5-93cf-521a62deb33c.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "b4da6250-022e-4f9c-af7b-bc4dc0151862",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "dark-bg",
+        "flat-lay",
+        "grid",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e8d4b4a6-b314-4058-b6ad-c0b1b97550b9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/805372b3-1218-4081-88c9-4e64f46e8a88.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3484c6fa-9a9d-4168-93ac-3c5d5efb62f9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5a0c58de-ba05-4c78-be1b-302a29b667ae.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "d6e896af-1c06-4677-a7ee-785fc1551140",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "headline",
+        "ingredients",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "pets",
+        "product-photo",
+        "warm"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3b096fd0-fb69-49b2-b099-cdb980953cec.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6c6cd7f4-1225-4e9c-99d2-a23caa1fec8d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/bd27c39a-a499-411e-852d-19186e8bb054.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2949b1da-913c-4332-ab0e-f15cae760d25.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "71c6b268-c966-4330-9c5c-179e6143835d",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "gradient-bg",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/01d6cba0-e5b0-4617-946c-a57e238bc201.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e3a1cf5c-3b98-4683-8d0d-f13d38aaaae2.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/df64825b-56f7-44bf-8dd5-af182825ab31.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c25f2a0c-3c2e-4b83-b4e4-d59cab94c0b2.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "790823b2-29e7-467e-bd59-518ae76bdb7a",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fd7536ff-8757-42d6-bfa4-3a1817bc8a6d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b5fdbd81-8fe2-40a5-846e-69406762e45b.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7dd5cf66-8f52-46ec-983e-1ae97cfd405e.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/99420ff1-c35b-46be-8fe3-a00ab2edc3e7.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "6f62dbf4-5cba-4de9-ab3b-768c7e7d4ab0",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "grid",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "natural"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3e57d335-5fd1-4e73-9f29-018bf7602db6.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/43e99b47-a334-4cca-aaf8-f7e51b88830a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a999deb9-c749-450e-80af-814bf335bbfe.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/98ac5e32-a437-4586-bb3d-50f173e8add2.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "2f6a9067-5890-4514-b4e4-e2da72741ff3",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "hands",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "minimal",
+        "natural",
+        "playful",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0de5f8fa-c6a0-4ce6-9454-c612815e39cd.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f7801ea9-c9f0-4b3c-99fd-f08ff5a28ef7.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3df44433-950e-40e9-85ab-88a172c7e978.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/20047384-9039-4aea-9aa7-5c8ebb949517.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f1d235d6-64c1-4874-b221-0ab5dff956a7.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "6f56a99a-7564-4cec-b46e-dfeccbfbb039",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "clinical",
+        "dark-bg",
+        "floating-product",
+        "hands",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "minimal",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/dbdfe338-1e7f-42cc-9cb6-f293df9cc770.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/dd3a102b-116f-4bda-99fe-f61a529a5ef3.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5121c691-2ec0-47b9-bc00-3df241f8bbc3.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/08db659c-c0d5-4cc5-8563-939486ea6ff7.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "83f6b6c6-a05f-4e8d-bd3d-38fdbd12810c",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "comparison",
+        "headline",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "pets",
+        "playful",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c4e0e26e-d23e-4bae-a8ae-da5e88563b58.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0f8546a3-511b-4fc2-b1cc-ccf1a3faaffe.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e92845fd-3519-41f7-a2f3-59cb21c7adbf.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4c6cd304-6627-4ef6-8929-e77fd0e0e125.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "158021d7-5b3c-43ab-b87a-029b72c536ce",
+      "source": "nanobanana",
+      "name": "Social Proof Template",
+      "description": "",
+      "category": "social-proof",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "grid",
+        "headline",
+        "health-beauty",
+        "lifestyle",
+        "logo-featured",
+        "natural",
+        "social-proof"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6e7ba23b-6cf0-4349-a65f-df2974958071.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9bb7766e-388d-403f-85ba-263bd28332db.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/676884ab-1361-4b7c-8bab-2ad6cad3db26.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/18df013f-63e7-4848-9f85-6d43c4a4177c.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "98e35144-240e-47bb-9468-2380cafe7fe5",
+      "source": "nanobanana",
+      "name": "Ecommerce Lifestyle Feature Split Customizable V1",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670673-0-1QR3XOxi.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/70ca59ab-dfa7-41a7-b9c9-06ba62a82b03.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6bd26adb-f7e4-41f0-bdec-d6b20922da17.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/96d7f404-7c21-423a-a123-fdef893a316b.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "6957766e-d5d0-4fb6-95f3-aaa8897f826d",
+      "source": "nanobanana",
+      "name": "Celebrity Testimonial Split Layout Empty",
+      "description": "This section constructs the prompt for the AI. The Person and Environment are fixed; only the product details change.",
+      "category": "social-proof",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "hands",
+        "home-electronics",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670807-1-1dOen0Pc.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/ce7fc6f1-4225-4797-bed7-16d3889f254f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f1cddac4-6939-44af-9c15-901d78d83c23.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/147c1e2c-e23b-4f67-8b14-674c125e1fca.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "12b2d0db-e923-4c39-a7b9-e3fc64a15b8d",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "natural",
+        "sale"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d9243c74-cc41-4f2f-9059-2d01b9c98ff2.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "9a3f3454-3fe4-4782-868a-64ada11b14e9",
+      "source": "nanobanana",
+      "name": "Ecommerce Lifestyle Feature Stack Master Dry Fill",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "home-electronics",
+        "ingredients",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "playful",
+        "product-photo",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "energetic",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/76bdfee5-ed22-42f2-9182-0272daf4cff2.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d4a05fe3-ee05-4e68-87a6-f27a59e7b117.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/79b2a999-8a42-4a80-a7a3-6b6fd6687cf8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670782-2-1OMfVtpb.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "690a2de2-a68a-4349-8b04-a02b5aa399c9",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "clinical",
+        "dark-bg",
+        "floating-product",
+        "hands",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e25b9aef-9bef-4ec2-b8a8-733baa0f2a04.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4e3d96aa-18ca-45bd-a0af-232c71049fcd.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7a38c456-5e09-44b1-8c2a-a54e305f8520.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "632c6ae0-998d-4592-9559-44b1ebec7211",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "natural",
+        "product-photo",
+        "sale"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c9fbe872-4248-4b63-8ef3-bed9ddcc89e9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/94426c69-7162-48e7-b9a8-381dde7232e6.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/138e8d10-fabd-4fb4-a5e3-b174f35b61ab.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3e92a2bc-bbdb-44ff-be6a-00a82b31c741.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/ad6d47e4-793f-44ea-ae54-a67ece0cd97f.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "a0732173-1b6c-47e4-9d78-1577ab2643ea",
+      "source": "nanobanana",
+      "name": "Lifestyle Template",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "hands",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "playful",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/943141f1-ca2c-4fb7-a457-675fdd4bcc58.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e967d265-571e-45f3-99a0-c555df42bae6.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f79cd5ab-2043-465a-8960-12bd9bdb5267.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/08a8aa6a-544f-4278-b57f-84c4ed67f948.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "5e58d492-b529-4108-98fa-8d3faa6e7a8f",
+      "source": "nanobanana",
+      "name": "Lifestyle Action Countertop Empty Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "banner",
+        "bold-type",
+        "centered",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "product-photo",
+        "sale",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "promotion",
+        "education",
+        "product-launch",
+        "brand-awareness",
+        "conversion",
+        "trust-building"
+      ],
+      "layout": "banner",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670854-4-1j109ljv.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0f478348-6cb2-40ba-b21b-b4104a95d877.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5a6895fe-9dbc-4c98-96d9-97e69be3180a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6cacb4e3-fb8c-41bf-869b-81dda4bbc23e.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "d9252924-2552-47aa-9b62-259ffb2ef62a",
+      "source": "nanobanana",
+      "name": "Lifestyle Template",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "natural"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/31cc3c08-ef31-433c-a31b-a04f58db1585.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/1d64b0f0-9d6a-4a0a-9500-abf5406f61de.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/15093a6d-b870-4f2f-aee7-8473f5f22722.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5fa59324-431a-485d-9e4d-34833744f024.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "3c203787-a73d-45ea-9d05-612d8d69ca6f",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8dec0064-67b0-4604-990d-797341857d6d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/bb856dc7-89e3-4d8f-970f-6982317792b9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f55b93cd-6676-4857-8136-67438f1ebade.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c135c858-80eb-4f01-9df4-e8bf3c2f11ec.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "7608dfac-ba90-433b-8c4e-4d01a0adb88d",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "hands",
+        "headline",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "natural",
+        "pets"
+      ],
+      "mood": [
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/ca32f1e4-4933-4042-8f4c-aa40e319e09f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/163fd78d-edea-4993-9a73-ddd165e3e7d6.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9ae1b6af-8061-44b0-9d9b-6c797868a9cd.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/864aff73-4348-48e9-95c6-26fdd4aba3d1.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "8dab8ae1-11da-4685-b3dc-f3fb7fe211b6",
+      "source": "nanobanana",
+      "name": "[Insert Template Name]",
+      "description": "[INSERT DESCRIPTION: e.g., Luxury application guide for Product X]",
+      "category": "how-to-process",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "clinical",
+        "headline",
+        "how-to",
+        "how-to-process",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "pets",
+        "sale",
+        "social-proof"
+      ],
+      "mood": [
+        "premium",
+        "natural",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670866-5-1tVzlItL.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/35214790-9505-4e5b-86ca-9872632b55e0.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5654a103-f5df-4c86-8e98-643e91a26727.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2ed146b0-be1e-4599-b98b-c5e66b3dba81.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "4df1e537-f7cd-4e4a-bb63-6a6263fbafa8",
+      "source": "nanobanana",
+      "name": "How To/Process Template",
+      "description": "",
+      "category": "how-to-process",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "how-to-process",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b1c78787-f3ae-455d-a24c-e88e658f0b75.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/13db19e5-494f-4475-8a77-6eb8ce4de4c8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9765aa38-c48b-4453-8636-d88013385f07.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fa6a0fc5-fbbe-4da4-b7dd-b7cc51ca51fc.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "4be2baec-26cb-4cec-9ca5-beb03c12d7be",
+      "source": "nanobanana",
+      "name": "Ecommerce Listing Comparative Convex Arc Bottom V3",
+      "description": "Primary Brand Color background. The bottom edge forms a 'Convex Arc Bottom' shape, creating a curve that arches upwards (Low sides, high center), opposite to the previous concave style.",
+      "category": "comparisons",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "comparison",
+        "comparisons",
+        "hands",
+        "headline",
+        "how-to",
+        "logo-featured",
+        "natural",
+        "pets",
+        "split-layout"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "education",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/302c058a-c63f-4a4d-bea1-9e23e916f54a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670981-6-1oJs-shF.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9a1a63cc-2b75-42e2-805c-e4a73653e5fc.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/1c8baf46-544d-4e81-b422-af64b371e18d.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "c56ccef6-c637-4d00-b80b-4e02d768de50",
+      "source": "nanobanana",
+      "name": "Ecommerce Feature Trio Layout",
+      "description": "Empty customizable template. A 1:1 product image with a header and three feature panels.",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "grid",
+        "hands",
+        "headline",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "natural",
+        "pets",
+        "social-proof"
+      ],
+      "mood": [
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/81cbc962-2e1f-4242-b0d0-1b8324abc201.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fb0db334-a86f-4b6e-8e06-b2e14a12752a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670530-7-1nD_fwfs.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/20f49c16-02cd-4a7a-bd4e-37aa95873eaa.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "432e617c-80c6-48e0-8895-874f43137eb7",
+      "source": "nanobanana",
+      "name": "Shopify/Ecommerce Product Feature Showcase Top Down V1",
+      "description": "Solid vibrant background color that contrasts with white text and the product.",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "flat-lay",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "playful"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670641-11-1nmHwMkK.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d2bf0053-7a2a-4461-a184-8308b766033f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d85874af-125a-4a1f-b46b-119641a68377.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/02b962cc-f37f-48d8-b038-62978e344260.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "95aae219-cfd7-421a-920b-cfeab932082e",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Split Product Features Grid V1",
+      "description": "Solid light neutral background color providing high contrast for text and product.",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "gradient-bg",
+        "grid",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "infographic",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670884-10-1DKTdXQp.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9d19eaf4-eee2-4e47-a962-6ca1d08dc0dd.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d7697c81-5e78-4017-a939-ff7023dba587.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/35119ba7-db7d-4e55-9554-5b735ed4b435.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "2a491731-0541-4087-98f1-76d0e5253dc1",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Whats In The Box Asymmetric Grid V1",
+      "description": "Solid light gray or off-white background that provides subtle contrast for the white product cards.",
+      "category": "ingredients",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "gradient-bg",
+        "grid",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "ingredients",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "sale",
+        "split-layout",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "education",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670700-12-1h6EFu52.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "8d2d5ddc-2f3b-4430-96be-3370d5c9a396",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "centered",
+        "dark-bg",
+        "grid",
+        "hands",
+        "health-beauty",
+        "ingredients",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "playful",
+        "product-photo",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/87900924-da6d-4bc8-9024-6a7e04037b94.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/435b4c1b-2342-46b9-b2f4-557424e5251a.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "c33d7c08-d01a-41e5-bcb5-0be7136938cb",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Lifestyle Product Centered Badges Bottom V1",
+      "description": "Blurred interior of a modern car center console with warm, cinematic lighting",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "gradient-bg",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345671498-13-1Mm2vCFH.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2c60c225-23f9-43f4-ac1c-b0582955a908.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7d9a2e06-53c8-4e5f-90a8-2f78c27f9385.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "95996311-e866-434c-a86a-d82b05cdb64f",
+      "source": "nanobanana",
+      "name": "Comparisons Template",
+      "description": "",
+      "category": "comparisons",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "comparison",
+        "comparisons",
+        "dark-bg",
+        "grid",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "minimal",
+        "natural"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "education",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fec7a1c7-6bdc-4db1-9ac4-8a096e5bbdf3.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/576103c7-2828-4166-928d-e1441f965c54.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/15e0ba2e-f49d-4980-a5cd-5a92d05aa90c.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "0b37ad04-3bda-4d7f-8bde-4f0b803513ae",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Feature Highlight Centered Product V1",
+      "description": "Clean, solid neutral background to emphasize the product.",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "gradient-bg",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "infographic",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345671425-14-1BIVSVN9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/883c428b-1382-4341-af1f-6995a707be03.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d3f5df65-f20f-435f-a32a-151890152b48.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/176e819c-22f7-4719-b0a2-07842ec9e161.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "27d09a7f-4304-45bd-af7c-f61bf8a221be",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Product In Hand Feature Highlight V1",
+      "description": "Soft, clean studio gradient background with a subtle light source from the top.",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "comparison",
+        "dark-bg",
+        "flat-lay",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "ingredients",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "product-photo"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "trust-building",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670654-15-1sKgITAR.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6a33352b-f076-4d80-8f26-27c1b19ae45a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c794ca06-e82e-49ca-ac01-48fc5c02b45c.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "7553cd4c-9bc3-43b8-9b53-ffa3faf27dcf",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Lifestyle Sleep Ui Overlays V1",
+      "description": "A dimly lit, warm lifestyle scene of a bedroom at night.",
+      "category": "lifestyle",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful",
+        "sale",
+        "social-proof",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "promotion",
+        "education",
+        "brand-awareness",
+        "conversion",
+        "trust-building"
+      ],
+      "layout": "centered",
+      "text_density": "low",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670822-16-1n1wLKx5.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2fd2d21f-a8c2-494f-9232-f223fd29ba3a.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f4c880e0-2ee0-4cf4-8453-0d615f56ddff.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f1b2258d-e130-415e-9686-ff5cb4a5eabf.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "7085499d-39b2-41f3-b5f5-13e776c6c1a6",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "centered",
+        "clinical",
+        "health-beauty",
+        "how-to",
+        "luxury",
+        "product-photo",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b0e91498-60f9-49e5-9ed1-8ae2f0715cf9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8cbabf02-cd0f-4ee8-b07b-d22e8a48c169.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e544f384-c86c-44a2-a80c-0fb8cc1846d5.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "5ed5acb3-0a8b-406b-b602-9760592617ca",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Bestseller Award Showcase V1",
+      "description": "Dark, cinematic starry night sky with a warm spotlight focused on the central award elements.",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "gradient-bg",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "product-photo",
+        "social-proof",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345671211-17-1-ijFHvp.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9f708b0b-64d4-4fef-8027-930bf473677b.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/18090b6e-ffb1-4c28-a25b-2a56238c02d9.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "7d666cf9-468e-4d4d-831a-cfd79fec5dd5",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Header Benefits Lifestyle V1",
+      "description": "A lifestyle photograph of the product in its natural environment (e.g., the back of a TV) with a colored overlay block at the top.",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "flat-lay",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "playful",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670981-18-1QjKomUn.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8c436228-373e-4987-b3a0-e1ebfec1496f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b69dc07d-6687-465b-815b-cf92b7c63a8d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a72b3654-6e46-4e97-ae51-5e7a721e00a1.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "f44424f1-5053-43c6-b150-a825129c6ea5",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "floating-product",
+        "gradient-bg",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "luxury",
+        "minimal",
+        "pastel-bg",
+        "playful",
+        "split-layout",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6dc6f255-5935-4490-b216-1467dd7fa5c5.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2218a7e7-5f6c-42f8-805b-592af20d171c.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0a34a2a4-9677-41f3-828f-0ad5abc27265.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b02fc88e-01cd-4702-a9af-740d2b654f09.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5af2e339-bfe2-4691-bbfe-2c17acc3dcad.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "26bc3476-0b79-4cff-8bb2-5543e128037f",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Header Benefits Lifestyle V1",
+      "description": "A lifestyle photograph of the product in its natural environment (e.g., the back of a TV) with a colored overlay block at the top.",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "flat-lay",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "playful",
+        "product-photo",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670981-18-1QjKomUn.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8c436228-373e-4987-b3a0-e1ebfec1496f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b69dc07d-6687-465b-815b-cf92b7c63a8d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a72b3654-6e46-4e97-ae51-5e7a721e00a1.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "fcdd5961-0843-473f-89ae-94541c1d3420",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "natural",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b242994a-0451-4bc0-8f76-236eee066f2b.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5462e266-d7b4-42c0-81d2-4c4bea2d2c6c.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/14fe6f4f-9561-412f-ab11-12f3c3efb418.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/bacf5f61-21c5-4cb0-a246-d8ff9c6c55fb.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "df475459-20a0-4c8e-a747-e83417c5dc80",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Minimalist Text Top Left Product Closeup V1",
+      "description": "Solid vibrant background color that provides high contrast for text and product.",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "clinical",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "playful",
+        "product-photo"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345671126-20-1-Qjc-Az.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/00b83bfe-5919-4280-ab59-61ff6d5c4a33.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7cd8215b-08d9-4107-8b8d-7309ca6a3023.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/80741f91-8944-4d26-b20e-1ee690853ae7.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "1a84c47f-cfb1-4cc3-ac02-ee16d96b2396",
+      "source": "nanobanana",
+      "name": "How To/Process Template",
+      "description": "",
+      "category": "how-to-process",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "how-to-process",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c7e1dce9-3bf0-4637-8231-5693635bda4d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e1c0dba3-7cca-4c55-bed8-6622cc3379d8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/52d62376-61ef-43bf-afac-4a3a7a1db1a3.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/499e8478-e16d-4350-9d36-42e0b3caab86.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "25f352dd-96da-4ffc-ba54-f4ae8d8214e9",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "centered",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "minimal",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "dramatic"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/ee9506e9-37eb-441e-8188-f06b49edc214.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6cd9a962-d719-427d-90c0-aafff66c92d5.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/71de614c-3ba7-47f8-ae02-078a056fabc4.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6b79c8f4-cb44-4b04-8964-c8d49a8b2274.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/20c7340d-d1aa-4d77-8878-cad5107a7ffa.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "8f97e5c4-83fc-43c5-9c60-4d3c5219152e",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "pets",
+        "playful",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4fb933e5-5b33-4acd-aa96-f655604e5fbe.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0414e912-64f9-483e-bed2-eeab21e8976d.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/dceabd14-d7df-4d92-a9d8-fa167eb54cd8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5edccf7e-7dc3-459a-8ee3-88cb1307e20c.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "f1f40699-de13-4675-b481-fc851152fd36",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "health-beauty",
+        "infographic",
+        "natural",
+        "social-proof"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4a650a2f-6718-4d3b-af6a-7364d0526815.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c2af63e4-164c-400d-94c8-df7ddc246304.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3770bc93-2db8-4cd3-a442-09997dbef23d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/36d578f8-7bea-48b6-a12d-40b808917e5a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c81f4085-e85e-44b9-a62d-fdfd53fe2910.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "96807630-f1c6-44f2-a2c1-3345b677229b",
+      "source": "nanobanana",
+      "name": "Lifestyle Template",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "hands",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "playful",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/619617e5-402c-4029-9374-c62bce1ab06e.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7e0e20dc-8942-49b1-8a19-0708e4e7b1bf.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2f64825f-f84b-4fc5-9106-b13327b20d09.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/12712f19-7f03-4314-9baf-170d2e38aee0.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/8c6dbc89-e6b6-42ca-97f5-68fb5e793f49.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "9a03c56a-d61f-43ef-abdf-6d6da9747be4",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "logo-featured",
+        "natural",
+        "product-photo"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "product-launch",
+        "trust-building"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/142a5db6-84be-49e5-952e-b44bcaacb690.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a4ba5d0a-feee-41d2-97e4-145f90ee41f4.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/bdd2da24-9fc8-4cd6-8d3d-b6e9cbb37c7f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0a964525-718e-4885-93e8-6a1944ecba05.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "35ba7af4-b55a-4c04-aa17-c7ec8e25f03c",
+      "source": "nanobanana",
+      "name": "Comparisons Template",
+      "description": "",
+      "category": "comparisons",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "banner",
+        "centered",
+        "clinical",
+        "comparison",
+        "comparisons",
+        "headline",
+        "health-beauty",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9a092361-2990-4302-b920-3a980ef27b1d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/81e91bd7-7fbb-47a9-8073-0d2a2942d533.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c92abb80-276e-41a6-b79d-cedb13f92041.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7da79319-7785-47aa-bb94-6356b3128c9f.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "7a5ad6a3-13f9-4a54-b84c-34fb31c87e10",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "minimal"
+      ],
+      "mood": [
+        "clean"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/017252c5-ad33-49ae-9c4d-66a6de744f1c.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/64d7405f-4ff0-4568-9902-14dd97bbb6bf.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/37828e04-80fd-4eec-90f5-2135057dfd4e.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/71e2dac2-3f85-40b3-b0d3-1ece350c988f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4288655d-b9e9-40b8-a283-c69e0f7081a1.png"
+      ],
+      "added_at": "2026-02-16"
+    },
+    {
+      "id": "8056951a-b015-43cd-a2e9-bf89d782ad84",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "health-beauty",
+        "ingredients",
+        "natural",
+        "social-proof"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c2af63e4-164c-400d-94c8-df7ddc246304.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4a650a2f-6718-4d3b-af6a-7364d0526815.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/36d578f8-7bea-48b6-a12d-40b808917e5a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c81f4085-e85e-44b9-a62d-fdfd53fe2910.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "8fd0ecf3-e08e-4dc9-91c5-4475aaa4755d",
+      "source": "nanobanana",
+      "name": "[Insert Template Name]",
+      "description": "[INSERT DESCRIPTION: e.g., Luxury application guide for Product X]",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "clinical",
+        "headline",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "pets",
+        "sale",
+        "social-proof"
+      ],
+      "mood": [
+        "premium",
+        "natural",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670866-5-1tVzlItL.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/35214790-9505-4e5b-86ca-9872632b55e0.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5654a103-f5df-4c86-8e98-643e91a26727.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2ed146b0-be1e-4599-b98b-c5e66b3dba81.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "93ba9b7c-a272-4f23-8530-9e7da7f232da",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "playful",
+        "social-proof",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4c38bee7-6f22-4584-abdb-519b83e6fb20.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/dd3c1ba6-67d6-4fa9-9762-dcb0e92c0212.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "50f72757-b53d-4684-87b2-f5f2dd3af07c",
+      "source": "nanobanana",
+      "name": "Pure Good Tallow Layout Empty",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "grid",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9878be53-f2fb-4dbf-ab31-d62d69b93f54.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f3db1ea3-2c9e-47ff-bb61-829e795e74cf.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "1408b63c-a318-4b64-be03-3e3d586dd79b",
+      "source": "nanobanana",
+      "name": "Monochromatic Product Showcase Empty Template",
+      "description": "Corresponds to the Donut/Prop in reference",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "natural",
+        "product-photo",
+        "sale"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "product-launch",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685740-0-1zVbOEru.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e17ba60a-9a49-442b-b37c-8deb5679449c.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "d07ba62a-f280-4d10-8126-0823fe1f09b3",
+      "source": "nanobanana",
+      "name": "Shopify Benefit Split Wave Customizable",
+      "description": "A dynamic S-curve wave separating the canvas diagonally from mid-left to lower-right.",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "natural",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/1441fa66-7862-4124-8a4a-79166af2e781.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "fe582c60-451a-459f-9cf1-b153a90972d2",
+      "source": "nanobanana",
+      "name": "Product Photo Template",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "banner",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "grid",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "minimal",
+        "natural",
+        "playful",
+        "product-photo"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/410f5ab8-cd35-4232-8a6f-fa96a36801f6.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685410-1-1U1Fm0XG.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "d738b75d-4e3d-4259-ac77-0f9f71236730",
+      "source": "nanobanana",
+      "name": "Grummies Hero Modular V2",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "natural",
+        "playful",
+        "product-photo"
+      ],
+      "mood": [
+        "energetic",
+        "natural"
+      ],
+      "use_cases": [
+        "product-launch",
+        "trust-building",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/511aebd5-569b-4a5b-95d3-a1c51cefab5d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/1ea91658-830e-431e-a205-abd4f5e1cc5d.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "48103041-1037-45ca-a0b1-77133381f51c",
+      "source": "nanobanana",
+      "name": "[Insert Template Name - E.G., Product Listing Dual Benefit Split]",
+      "description": "[INSERT DESCRIPTION - e.g., Brand primary color or category background]",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "hands",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685419-22-1O1ne93O.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7038a022-df2f-44d8-ae42-d149b62f8715.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "cf3588d4-bdf7-44b4-985c-e0c1cc1ae386",
+      "source": "nanobanana",
+      "name": "Shopify Unified Wood Showcase Empty",
+      "description": "A seamless studio setting where the background wall color exactly matches the [surface_material] table color.",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "grid",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "luxury",
+        "natural",
+        "playful",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/128c3b44-1f29-4c7f-89e0-3ca96ce5c37b.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685468-17-1-O6ae8q.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "e881b66e-802a-4c11-9ce8-aaaed1b81cff",
+      "source": "nanobanana",
+      "name": "Shopify Survey Results Stacked",
+      "description": "[INSERT PRODUCT IMAGE PROMPT/DESCRIPTION - e.g., Blue energy drink can with condensation droplets]",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "comparison",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685444-28-12vevS1M.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7cf6f0d7-3e7d-4dd5-9617-fe12c15a26ab.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "342fb17c-4b84-4cc0-b37a-e45442bc96ed",
+      "source": "nanobanana",
+      "name": "Product Benefits Flatlay Scatter 4X Custom",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "flat-lay",
+        "hands",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "minimal"
+      ],
+      "mood": [
+        "clean",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/1729c215-58e7-472f-b338-07b85923fa0a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/bdec2dd3-0680-465f-b4e6-036f2bbe4e7d.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "33215ae9-872d-441f-9fbe-62672e5cc3f1",
+      "source": "nanobanana",
+      "name": "[Insert Template Name - E.G., Luxury Skincare Showcase]",
+      "description": "",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "playful",
+        "product-photo",
+        "sale",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "warm"
+      ],
+      "use_cases": [
+        "promotion",
+        "education",
+        "product-launch",
+        "brand-awareness",
+        "conversion",
+        "trust-building"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685853-29-1CGTRukD.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a7998c02-57ef-4a93-839b-e11970b7f2ae.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "eed199f4-48a8-483e-ba47-3491c513e912",
+      "source": "nanobanana",
+      "name": "Customizable Product Showcase Square Realistic",
+      "description": "Abstract wavy hill shapes rising from bottom to mid-ground.",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "hands",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "natural",
+        "product-photo"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "product-launch",
+        "trust-building"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/a713853b-5ec4-436e-bd93-070b2c739573.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3d55fbc9-f94e-4f9c-9bab-d020b7fc7f9a.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "f2c2c8a3-9b2e-48cf-98e6-431c5c402c80",
+      "source": "nanobanana",
+      "name": "Lifestyle Hero Split Gradient Template",
+      "description": "Implicit gradient in the base image ensuring text readability on the left.",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/94596c2b-154c-43e7-a7d4-2718ec8bf87f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6a62db2b-65fa-446e-b420-440bc6ca55ad.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "981f5baa-539d-4163-a49f-288c3a5f116a",
+      "source": "nanobanana",
+      "name": "Product Feature Stack Vertical",
+      "description": "A 1:1 shopify listing image featuring a large product shot on the left and a vertical stack of 4 key benefits with icons on the right.",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "sale"
+      ],
+      "mood": [
+        "neutral"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685692-23-1WWcaNQ_.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fe31f0ca-6624-45ac-8637-08daca1ce516.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "fc5ee884-85eb-4c5f-828c-45ccde20fae8",
+      "source": "nanobanana",
+      "name": "Amazon Feature Highlight Layout Generic V1",
+      "description": "[INSERT SCENE PROPS - e.g. Three amber capsules scattered near the bottle base. Two on the right, one on the left.]",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "gradient-bg",
+        "grid",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "natural",
+        "sale",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4fc2495e-47b3-49cf-ba59-474ece8c7066.webp",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/313e6c56-b962-4521-a19f-26901c4e4747.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "1bd0b75c-a05a-4198-a083-934f3d0420d6",
+      "source": "nanobanana",
+      "name": "Infinite Shelf Showcase Template V3",
+      "description": "The [product_name] [product_type] placed centrally, slightly rotated to show dimension, sharp focus.",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "centered",
+        "clinical",
+        "health-beauty",
+        "natural",
+        "product-photo",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685700-18-1Evf5fg0.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/200c1f43-6828-452e-bd0d-69f98a81d4f7.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "489b857c-678d-438a-ac34-874bffcc8f45",
+      "source": "nanobanana",
+      "name": "Product Benefit Breakdown Vertical Custom",
+      "description": "Split layout with product on right, benefits stack on left, and footer banner.",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/acb5358e-5217-4370-9f2b-14172145185d.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/052e4f9b-c3e6-47a4-b981-15dcbb3f34f7.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "efa53c79-383c-4077-8293-cdbe78c41774",
+      "source": "nanobanana",
+      "name": "Vertical Product Showcase Customizable",
+      "description": "Minimalist 4-row product listing template. Features horizontal product placement with opening facing right, product texture smears, and centered text hierarchy. Fully customizable for any brand.",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "minimal",
+        "product-photo"
+      ],
+      "mood": [
+        "clean",
+        "dramatic"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fa34d48e-c73d-41cd-acc2-b8bc66552868.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685559-5-1Ur_2EAR.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "be7bbcb0-7f64-4a6c-b431-599c54ee531a",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "natural"
+      ],
+      "mood": [
+        "premium",
+        "natural"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7b13a9e6-c19f-4ef9-96b4-04c0d539231f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/cbb115cb-c4e8-415c-9482-865b6616a0e3.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/be21b99c-ff9f-4f70-8bd0-0eb61af05db7.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/208f2947-db03-4619-9a3f-a8e64ba48890.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/275d43f3-5547-4325-b158-bf10483c9d2a.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "b2701d06-1e48-4e4a-92c0-bab9ebf74dbb",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "gradient-bg",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e043d9dd-1704-4c28-888d-bf7f2e047e29.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e0f62baa-7bc9-4e8a-a31f-797de4008486.png"
+      ],
+      "added_at": "2026-02-12"
+    },
+    {
+      "id": "ffe2f093-3b31-402f-b59b-4d066a4fd577",
+      "source": "nanobanana",
+      "name": "Shopify Benefit Showcase Split Layout Master Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2608391a-d369-435d-a389-bb9028b0650e.webp",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7ef31696-f757-4796-9113-7c14a3564838.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "3ccd5a96-6499-4ef6-b580-d4745764074d",
+      "source": "nanobanana",
+      "name": "[Insert Template Name (E.G: Summer Collection Lineup)]",
+      "description": "[INSERT DESCRIPTION (e.g: Grid layout matching specific reference image)]",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "grid",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "minimal"
+      ],
+      "mood": [
+        "clean"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685403-3-1hYIrXLe.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/041021df-63e5-444b-8448-dd21ee169df1.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "71f94948-3d82-47df-9d2c-92fa5f6247c4",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "minimal",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9ec84d86-be64-4711-b287-bbfbce4092d8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b184e8bf-1732-4e1b-9544-039b8f053f2d.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "b28b7070-e106-4e40-b564-f45e925ff570",
+      "source": "nanobanana",
+      "name": "Shopify Feature Highlight Layout V1",
+      "description": "Primary product package, placed prominently on the right.",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "pastel-bg",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c70f74d0-a9f3-4ecb-b71b-e0341e71964f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685518-19-1tcoojw9.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "ff4a2d9e-1144-476f-b4a8-367369b1a560",
+      "source": "nanobanana",
+      "name": "Shopify Benefit List Split Layout",
+      "description": "The main product packaging",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fcab024f-aebe-4761-82cc-0fb40b4c5a47.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/25464854-75e7-4820-b66e-93e1489c2663.webp"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "199c8ea4-5053-4879-8672-1f9fea471442",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "dark-bg",
+        "flat-lay",
+        "grid",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "education",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/3484c6fa-9a9d-4168-93ac-3c5d5efb62f9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e8d4b4a6-b314-4058-b6ad-c0b1b97550b9.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/805372b3-1218-4081-88c9-4e64f46e8a88.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5a0c58de-ba05-4c78-be1b-302a29b667ae.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "f1edcfb8-2f65-4b65-9458-4cc411ebb982",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "health-beauty",
+        "infographic",
+        "luxury",
+        "minimal",
+        "natural",
+        "split-layout",
+        "white-bg"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/28522d0e-3798-426f-9e42-b3223390df10.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/586e8fff-dffc-4380-9951-7fed23005fd8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/863ad61e-a8be-46ab-9ef2-f466c8152f49.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/854fba8f-7378-4763-8074-ee89a520706b.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "081cbc92-5c3c-4fb7-9d9e-dab20bf37824",
+      "source": "nanobanana",
+      "name": "Central Product 4 Feature Map",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "natural",
+        "social-proof"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/74c8e814-deb6-4b4b-b1b2-07e4bfc3de72.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685666-20-1Ywlm6oH.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "32d6f10b-9f65-4c6f-b2b6-3c42259c0e1b",
+      "source": "nanobanana",
+      "name": "Grid Lifestyle Benefit Showcase Customizable",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "grid",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "playful"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/47cee7f6-b2b5-4acf-a723-151398423283.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685714-8-1Q1_n42A.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "14929db5-47d9-427c-baaa-a232a2172f55",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "pastel-bg",
+        "playful",
+        "split-layout"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685627-24-1pN55OP7.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/1c9dbe9a-75a8-4afa-94b5-4803c0cff54a.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "5d879dcf-ef40-4c8f-b956-0d1836d2db97",
+      "source": "nanobanana",
+      "name": "Comparisons Template",
+      "description": "",
+      "category": "comparisons",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "comparison",
+        "comparisons",
+        "headline",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "pets",
+        "playful",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0f8546a3-511b-4fc2-b1cc-ccf1a3faaffe.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c4e0e26e-d23e-4bae-a8ae-da5e88563b58.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/e92845fd-3519-41f7-a2f3-59cb21c7adbf.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/4c6cd304-6627-4ef6-8929-e77fd0e0e125.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "c90936ca-9160-4dc1-8f0f-6b3ba2ee2929",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "grid",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "lifestyle",
+        "logo-featured",
+        "natural"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9bb7766e-388d-403f-85ba-263bd28332db.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6e7ba23b-6cf0-4349-a65f-df2974958071.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/676884ab-1361-4b7c-8bab-2ad6cad3db26.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/18df013f-63e7-4848-9f85-6d43c4a4177c.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "7ec0af65-7afa-488c-baa9-ec5900fc09db",
+      "source": "nanobanana",
+      "name": "[Insert Template Name (E.G: Convie Velvet Gloss Benefits V2)]",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "lifestyle",
+        "luxury"
+      ],
+      "mood": [
+        "premium"
+      ],
+      "use_cases": [
+        "brand-awareness"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d800c39d-a47b-41c6-8469-7b9f8359f88f.webp",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/7566e71a-0afe-4cc9-9191-57a1e09b7cb6.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "9cf24f06-a40a-4bc5-92fb-94fefbbf31b6",
+      "source": "nanobanana",
+      "name": "Celebrity Testimonial Split Layout Empty",
+      "description": "This section constructs the prompt for the AI. The Person and Environment are fixed; only the product details change.",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "hands",
+        "home-electronics",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "product-photo",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "product-launch",
+        "brand-awareness",
+        "trust-building",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/147c1e2c-e23b-4f67-8b14-674c125e1fca.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670807-1-1dOen0Pc.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/ce7fc6f1-4225-4797-bed7-16d3889f254f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f1cddac4-6939-44af-9c15-901d78d83c23.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "1a5035f9-4e4f-4408-a40f-6aa91a80e486",
+      "source": "nanobanana",
+      "name": "Custom Single-Product Pedestal Showcase",
+      "description": "A symmetrical layout featuring a user-uploaded product on cylindrical pedestals, connected to descriptive text via vertical lines.",
+      "category": "how-to-process",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "how-to-process",
+        "minimal"
+      ],
+      "mood": [
+        "clean"
+      ],
+      "use_cases": [
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685570-16-1i39dJu5.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/326d7a1e-0e25-44e3-a0af-223dd3286768.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "ff6d48fb-076e-485f-8674-6c3de3910bbe",
+      "source": "nanobanana",
+      "name": "Shopify Benefit List Split Layout",
+      "description": "The main product packaging",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/25464854-75e7-4820-b66e-93e1489c2663.webp",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fcab024f-aebe-4761-82cc-0fb40b4c5a47.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "5aaa7dee-3674-4dbd-8943-dea0046a37c4",
+      "source": "nanobanana",
+      "name": "Shopify Product Showcase Bulk Supplements V2",
+      "description": "",
+      "category": "how-to-process",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "comparison",
+        "flat-lay",
+        "headline",
+        "health-beauty",
+        "how-to-process",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "sale",
+        "social-proof",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685674-26-1Jm1JYGQ.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/079af959-90f4-4577-bbae-a3124ff56301.png"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "3126bd4a-ab98-432f-97ea-53355d48c4e5",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "natural",
+        "sale"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "education",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/d9243c74-cc41-4f2f-9059-2d01b9c98ff2.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "2472f097-f35d-4df3-abe5-387612c5c690",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "luxury",
+        "minimal",
+        "natural",
+        "sale",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0217a529-a78f-4b8f-a51a-c2c334598b14.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/06b69dfb-0ead-4a53-b835-f3c3737c4c7e.jpg"
+      ],
+      "added_at": "2026-02-17"
+    },
+    {
+      "id": "88495f5b-8010-4305-a387-0e81d844c3b2",
+      "source": "nanobanana",
+      "name": "Lifestyle Action Countertop Empty Template",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "banner",
+        "bold-type",
+        "centered",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "sale",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "promotion",
+        "education",
+        "brand-awareness",
+        "conversion",
+        "trust-building"
+      ],
+      "layout": "banner",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5a6895fe-9dbc-4c98-96d9-97e69be3180a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0f478348-6cb2-40ba-b21b-b4104a95d877.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670854-4-1j109ljv.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6cacb4e3-fb8c-41bf-869b-81dda4bbc23e.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "98b0c40d-e909-49a1-8b76-ef547dbde19d",
+      "source": "nanobanana",
+      "name": "[Insert Template Name]",
+      "description": "[INSERT DESCRIPTION: e.g., Luxury application guide for Product X]",
+      "category": "infographic",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "bold-type",
+        "centered",
+        "clinical",
+        "headline",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "natural",
+        "pets",
+        "sale",
+        "social-proof"
+      ],
+      "mood": [
+        "premium",
+        "natural",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/35214790-9505-4e5b-86ca-9872632b55e0.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670866-5-1tVzlItL.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/5654a103-f5df-4c86-8e98-643e91a26727.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/2ed146b0-be1e-4599-b98b-c5e66b3dba81.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "104930f3-e450-4425-be41-10d7a39d847a",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "bold-type",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "playful",
+        "social-proof",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "energetic",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9765aa38-c48b-4453-8636-d88013385f07.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b1c78787-f3ae-455d-a24c-e88e658f0b75.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/13db19e5-494f-4475-8a77-6eb8ce4de4c8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fa6a0fc5-fbbe-4da4-b7dd-b7cc51ca51fc.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "350f9a1f-b8b1-42a7-9c21-488f5f6c26c9",
+      "source": "nanobanana",
+      "name": "Ecommerce Feature Trio Layout",
+      "description": "Empty customizable template. A 1:1 product image with a header and three feature panels.",
+      "category": "how-to-process",
+      "product_types": [
+        "pets"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "grid",
+        "hands",
+        "headline",
+        "how-to",
+        "how-to-process",
+        "lifestyle",
+        "natural",
+        "pets",
+        "social-proof"
+      ],
+      "mood": [
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670530-7-1nD_fwfs.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/81cbc962-2e1f-4242-b0d0-1b8324abc201.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fb0db334-a86f-4b6e-8e06-b2e14a12752a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/20f49c16-02cd-4a7a-bd4e-37aa95873eaa.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "b6145691-32bd-43c7-b924-08d11135fafc",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Whats In The Box Asymmetric Grid V1",
+      "description": "Solid light gray or off-white background that provides subtle contrast for the white product cards.",
+      "category": "product-photo",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "gradient-bg",
+        "grid",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "logo-featured",
+        "minimal",
+        "natural",
+        "product-photo",
+        "sale",
+        "split-layout",
+        "white-bg"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "product-launch",
+        "education",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670700-12-1h6EFu52.jpg"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "71b1f86b-c3eb-4533-9ab6-ec6abcce3604",
+      "source": "nanobanana",
+      "name": "Shopify/E-Commerce Product In Hand Feature Highlight V1",
+      "description": "Soft, clean studio gradient background with a subtle light source from the top.",
+      "category": "infographic",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "clinical",
+        "comparison",
+        "dark-bg",
+        "flat-lay",
+        "gradient-bg",
+        "hands",
+        "headline",
+        "home-electronics",
+        "how-to",
+        "infographic",
+        "ingredients",
+        "logo-featured",
+        "luxury",
+        "minimal",
+        "natural"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670654-15-1sKgITAR.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/6a33352b-f076-4d80-8f26-27c1b19ae45a.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c794ca06-e82e-49ca-ac01-48fc5c02b45c.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "e3bb0b9f-cf36-4ff3-9056-37cae7cb1d35",
+      "source": "nanobanana",
+      "name": "Shopify Benefit List Split Layout",
+      "description": "The main product packaging",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "minimal",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/fcab024f-aebe-4761-82cc-0fb40b4c5a47.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/25464854-75e7-4820-b66e-93e1489c2663.webp"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "3276dc0f-734c-4f31-ba98-27a214c17a06",
+      "source": "nanobanana",
+      "name": "Pure Good Tallow Layout Empty",
+      "description": "",
+      "category": "lifestyle",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "benefit-list",
+        "bold-type",
+        "grid",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "lifestyle",
+        "logo-featured",
+        "natural",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9878be53-f2fb-4dbf-ab31-d62d69b93f54.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f3db1ea3-2c9e-47ff-bb61-829e795e74cf.jpg"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "777d29b8-07c7-4f32-b75f-f8fc6365460b",
+      "source": "nanobanana",
+      "name": "Product Benefit Map Empty",
+      "description": "[INSERT VISUAL DESCRIPTION OF PRODUCT (e.g: A cylindrical skincare bottle with a smooth light blue body)]",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "banner",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "floating-product",
+        "grid",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "ingredients",
+        "minimal",
+        "natural",
+        "sale",
+        "social-proof"
+      ],
+      "mood": [
+        "clean",
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "education",
+        "promotion",
+        "conversion"
+      ],
+      "layout": "grid",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/cc9667f2-4dd7-4119-accd-66492ce6630f.webp",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c1f8b60a-ed09-4ec9-a40e-8c25137277f6.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "ad23f49c-eade-4d1a-a3ef-f2792929ed1d",
+      "source": "nanobanana",
+      "name": "Shopify Feature Highlight Layout V1",
+      "description": "Primary product package, placed prominently on the right.",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "lifestyle",
+        "minimal",
+        "natural",
+        "pastel-bg",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/c70f74d0-a9f3-4ecb-b71b-e0341e71964f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685518-19-1tcoojw9.jpg"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "8029a848-1740-4aab-82f2-a2fe3b53f971",
+      "source": "nanobanana",
+      "name": "Central Product 4 Feature Map",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "headline",
+        "health-beauty",
+        "infographic",
+        "ingredients",
+        "natural",
+        "social-proof"
+      ],
+      "mood": [
+        "natural"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "medium",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685666-20-1Ywlm6oH.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/74c8e814-deb6-4b4b-b1b2-07e4bfc3de72.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "630fa129-f36e-4091-8b25-fa0759b82485",
+      "source": "nanobanana",
+      "name": "Custom Single-Product Pedestal Showcase",
+      "description": "A symmetrical layout featuring a user-uploaded product on cylindrical pedestals, connected to descriptive text via vertical lines.",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "bold-type",
+        "centered",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "minimal"
+      ],
+      "mood": [
+        "clean"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685570-16-1i39dJu5.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/326d7a1e-0e25-44e3-a0af-223dd3286768.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "610f0c09-aebb-4bab-95c2-529bb7ce327c",
+      "source": "nanobanana",
+      "name": "Ingredients Template",
+      "description": "",
+      "category": "ingredients",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "dark-bg",
+        "headline",
+        "health-beauty",
+        "ingredients",
+        "luxury",
+        "minimal",
+        "natural",
+        "sale",
+        "split-layout",
+        "warm"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "warm"
+      ],
+      "use_cases": [
+        "trust-building",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/0217a529-a78f-4b8f-a51a-c2c334598b14.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/06b69dfb-0ead-4a53-b835-f3c3737c4c7e.jpg"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "b1f6b9c7-d53b-4de8-ab0e-8f802c8b3bd0",
+      "source": "nanobanana",
+      "name": "Infographic Template",
+      "description": "",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "flat-lay",
+        "health-beauty",
+        "how-to",
+        "infographic",
+        "lifestyle",
+        "luxury",
+        "minimal",
+        "natural",
+        "sale",
+        "warm",
+        "white-bg"
+      ],
+      "mood": [
+        "premium",
+        "clean",
+        "natural",
+        "dramatic",
+        "warm",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "centered",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/079af959-90f4-4577-bbae-a3124ff56301.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771366685674-26-1Jm1JYGQ.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "e96a04cc-c61d-4470-a3fa-9418f8418e50",
+      "source": "nanobanana",
+      "name": "How To/Process Template",
+      "description": "",
+      "category": "how-to-process",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "badges",
+        "banner",
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "floating-product",
+        "hands",
+        "headline",
+        "health-beauty",
+        "how-to",
+        "how-to-process",
+        "lifestyle",
+        "minimal",
+        "sale",
+        "split-layout"
+      ],
+      "mood": [
+        "clean",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "education",
+        "promotion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/9ec84d86-be64-4711-b287-bbfbce4092d8.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/b184e8bf-1732-4e1b-9544-039b8f053f2d.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "65e71137-d800-4189-978e-d5c0d13c7090",
+      "source": "nanobanana",
+      "name": "Celebrity Testimonial Split Layout Empty",
+      "description": "This section constructs the prompt for the AI. The Person and Environment are fixed; only the product details change.",
+      "category": "lifestyle",
+      "product_types": [
+        "home-electronics"
+      ],
+      "tags": [
+        "benefit-list",
+        "bold-type",
+        "centered",
+        "hands",
+        "home-electronics",
+        "ingredients",
+        "lifestyle",
+        "natural",
+        "social-proof",
+        "split-layout"
+      ],
+      "mood": [
+        "natural",
+        "dramatic"
+      ],
+      "use_cases": [
+        "trust-building",
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "high",
+      "preview_images": [
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/sheets-import/1771345670807-1-1dOen0Pc.jpg",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/147c1e2c-e23b-4f67-8b14-674c125e1fca.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/ce7fc6f1-4225-4797-bed7-16d3889f254f.png",
+        "https://kphwtvbsyfjgzuyaszwp.supabase.co/storage/v1/object/public/product-images/f1cddac4-6939-44af-9c15-901d78d83c23.png"
+      ],
+      "added_at": "2026-02-18"
+    },
+    {
+      "id": "keetrax-20260514-00001",
+      "source": "keetrax",
+      "name": "Millennial vs Gen Z Split",
+      "description": "Two-panel split ad contrasting verbose millennial-style copy against minimal Gen Z emoji language for the same product — a viral social engagement format seen across Starbucks, Edgars Fashion, and Comfycup.",
+      "prompt": "Create a square 1:1 ad creative using a split-panel \"Millennial vs Gen Z\" format.\n\nLAYOUT:\nTwo equal vertical panels side by side, filling the full frame. A thin centre divider line (1–2px, neutral mid-grey) separates the panels. Each panel is visually self-contained. The overall composition is symmetrical and balanced. Small generation label pills sit at the top of each panel.\n\nBACKGROUND:\nBoth panels share a clean white or off-white background (#FFFFFF or #F7F7F7). No heavy gradients or textures — the contrast comes entirely from the copy, not the visual environment.\n\nPRODUCT:\nThe exact same product is shown centred in both panels, identically cropped and scaled. Product photography should be clean studio style — flat or lightly lit, with a subtle drop shadow or none. No hands or lifestyle scene. The product occupies roughly the middle third of each panel.\n\nTEXT BLOCKS:\nLeft panel — Millennial side:\n- Label pill: MILLENNIAL — small rounded pill/badge near top-centre of panel, neutral grey fill, white text, small font size\n- Headline: [INSERT MILLENNIAL HEADLINE] — 8–14 words, slightly formal or elaborate language, medium-weight sans-serif or light serif, dark colour (#1A1A1A), placed above or below the product\n- Body copy: [INSERT MILLENNIAL COPY] — 2–3 lines of detailed, benefit-driven, adjective-heavy language (e.g. \"precision-crafted\", \"elevated sensory experience\"), small font size, left- or centre-aligned\n\nRight panel — Gen Z side:\n- Label pill: GEN Z — small rounded pill/badge near top-centre of panel, matching or slightly brighter fill, same text treatment as left pill\n- Headline: [INSERT GEN Z HEADLINE] — 1–5 words maximum, ultra-casual language, may include 1–2 relevant emojis, bold sans-serif, same dark colour\n- Body copy: [INSERT GEN Z COPY] — a single emoji or ultra-short phrase (2–4 words), large or centre-aligned, generous whitespace\n\nBottom of image (spanning full width):\n- Brand logo: [INSERT BRAND NAME / LOGO] — centred, small and clean, below both panels. Optional thin horizontal rule separating it from the panels.\n\nBRAND ELEMENTS:\nLogo centred at the base spanning the full width. No heavy decorative elements — restraint is essential. The humour lives in the copy contrast, not the design.\n\nCOLOUR PALETTE:\n- Background: #FFFFFF or #F7F7F7\n- Primary text (both panels): #1A1A1A\n- Label pills: brand accent colour or #E0E0E0 neutral grey\n- Divider line: #CCCCCC\n- Accent: [INSERT BRAND ACCENT COLOUR]\n\nSTYLE NOTES:\nClean, contemporary, deliberately self-aware and slightly ironic. The post is engineered for social engagement — the split format is the hook that drives \"which side are you?\" comments. Keep the design neutral and restrained; any visual noise competes with the copy contrast. Product photography must match exactly between panels. Do not add lifestyle backgrounds, gradients, or decorative shapes.\n\nOutput: single square 1:1 image, 2000×2000px, photorealistic studio quality.",
+      "category": "comparisons",
+      "product_types": [
+        "health-beauty",
+        "home-electronics",
+        "pets"
+      ],
+      "tags": [
+        "split-layout",
+        "comparison",
+        "white-bg",
+        "minimal",
+        "playful",
+        "bold-type",
+        "minimal-text",
+        "logo-featured",
+        "centered"
+      ],
+      "mood": [
+        "clean",
+        "playful"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "previews/keetrax-20260514-00001/ref_01_comfycup.jpg",
+        "previews/keetrax-20260514-00001/ref_02_edgars.jpg",
+        "previews/keetrax-20260514-00001/ref_03_starbucks.jpg"
+      ],
+      "reverse_engineered_from": "Instagram trend — Comfycup.ph, Edgars Fashion, Starbucks India: Millennial vs Gen Z split-panel posts, May 2026",
+      "added_at": "2026-05-14"
+    }
+  ]
+}
