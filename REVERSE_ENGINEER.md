@@ -8,9 +8,20 @@ When your team spots a cool ad design, you can add it to the library so every fu
 
 ### 1. Show Claude the image
 
+There are two ways to provide reference images:
+
+**Option A — Direct image upload (best quality)**
 Drag the screenshot or image directly into the Claude Code conversation and say:
 
 > "Reverse engineer this into the Keetrax library"
+
+**Option B — Instagram URLs**
+Paste one or more Instagram post URLs and say the same. Claude will:
+1. Extract `og:image` preview thumbnails via `curl` to get an initial read
+2. Download the full-resolution originals via `instaloader` (see section 7)
+3. Read the full-res files with the Read tool before writing the prompt
+
+> ⚠️ Do not rely on text descriptions from web fetches — they are AI-generated summaries of content, not structural analyses. They miss font weights, exact layout proportions, colour values, and fine details. Always read the actual image file.
 
 Claude will analyse the design and produce a structured prompt entry ready to paste into `library.json`.
 
@@ -131,7 +142,7 @@ Examples:
 
 ### 7. Download reference images locally
 
-After adding the library.json entry, download the source images into a versioned subfolder so previews work without a network connection.
+After adding the library.json entry, download the source images into a versioned subfolder so previews work offline and so Claude can read the actual images when refining the prompt.
 
 **Folder structure:**
 ```
@@ -143,34 +154,95 @@ keetrax_library/
         └── ref_03_[label].jpg
 ```
 
-**For Instagram sources**, extract the `og:image` URL from the page HTML, then download:
-```bash
-# 1. Extract og:image URLs
-curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" \
-  "https://www.instagram.com/p/SHORTCODE/" \
-  | grep -o 'og:image" content="[^"]*"'
+---
 
-# 2. Create folder and download (repeat for each image, label by brand/source)
+#### For Instagram sources — use instaloader (not curl)
+
+The `og:image` curl approach only downloads a **cropped 640×640 thumbnail** — Instagram's CDN URLs have a signed `oh` parameter tied to the `stp` crop/resize transform. Removing `stp` to get the full image breaks the signature (returns 403). Use `instaloader` instead.
+
+**Install:**
+```bash
+pip3 install instaloader browser-cookie3
+```
+
+**First-time download (loads session from Chrome):**
+```bash
 ID="keetrax-YYYYMMDD-NNNNN"
 mkdir -p keetrax_library/previews/$ID
-curl -s -o "keetrax_library/previews/$ID/ref_01_[label].jpg" -A "Mozilla/5.0" "CDN_URL_HERE"
+cd keetrax_library/previews/$ID
+
+# Pass post shortcodes prefixed with -
+instaloader --load-cookies chrome --no-metadata-json --no-captions --no-compress-json \
+  -- -SHORTCODE1 -SHORTCODE2 -SHORTCODE3
 ```
 
-**For other sources** (web pages, uploaded screenshots), save the image directly into the folder with the same naming convention.
+The shortcode is the path segment from the URL: `https://www.instagram.com/p/DYCUjk-kwD0/` → shortcode is `DYCUjk-kwD0`.
 
-Once downloaded, update `preview_images` in `library.json` to use local relative paths:
-```json
-"preview_images": [
-  "previews/keetrax-20260514-00001/ref_01_comfycup.jpg",
-  "previews/keetrax-20260514-00001/ref_02_edgars.jpg"
-]
+After the first run, instaloader prints: `Next time use --login=USERNAME to reuse the same session.` Use that for subsequent downloads (do not combine `--load-cookies` and `--login`):
+```bash
+instaloader --login=USERNAME --no-metadata-json --no-captions --no-compress-json \
+  -- -SHORTCODE
 ```
 
-> Note: Instagram CDN URLs are signed and expire within hours — always save to local paths, never store the raw CDN URL.
+**What instaloader downloads:**
+- Creates a subfolder per post named `-SHORTCODE/`
+- Files named `YYYY-MM-DD_HH-MM-SS_UTC.jpg` (single posts) or `..._1.jpg`, `..._2.jpg` etc. (carousels)
+- For carousels, pick the key frame(s) — usually `_1.jpg`
+
+**Reorganise into clean names then delete subdirs:**
+```bash
+cp -- "-SHORTCODE1/YYYY-MM-DD_HH-MM-SS_UTC.jpg"   ref_01_[label].jpg
+cp -- "-SHORTCODE2/YYYY-MM-DD_HH-MM-SS_UTC_1.jpg" ref_02_[label].jpg
+cp -- "-SHORTCODE3/YYYY-MM-DD_HH-MM-SS_UTC.jpg"   ref_03_[label].jpg
+rm -rf -- "-SHORTCODE1" "-SHORTCODE2" "-SHORTCODE3"
+```
 
 ---
 
-### 8. Verify it's searchable
+#### For other sources
+
+Save screenshots or downloaded images directly into the folder with the same `ref_NN_[label].jpg` naming convention.
+
+---
+
+**Update `preview_images` in `library.json` to local relative paths:**
+```json
+"preview_images": [
+  "previews/keetrax-20260514-00001/ref_01_comfycup.jpg",
+  "previews/keetrax-20260514-00001/ref_02_edgars.jpg",
+  "previews/keetrax-20260514-00001/ref_03_starbucks.jpg"
+]
+```
+
+> Never store raw Instagram CDN URLs — they are signed and expire within hours. Always use local paths.
+
+---
+
+### 8. Refine the prompt by reading the actual images
+
+After downloading, use the Read tool to view each image and audit the prompt against what's actually there. Common things that web-fetch text descriptions get wrong:
+
+| What descriptions say | What the image actually shows |
+|---|---|
+| "label pills / badges" | Plain bold text headers — no background shape at all |
+| "emoji-heavy Gen Z copy" | Often just 1 emoji, or a self-referential joke with no emoji |
+| "serif font" | Heavy-weight sans-serif (almost always) |
+| "off-white background" | Pure white #FFFFFF |
+| "product centred in each panel" | Product in upper OR lower half — text fills the other half |
+| "identical product size" | Slight size variation is acceptable if copy length differs |
+
+**Check the prompt covers:**
+- Exact text hierarchy (which line is larger, which is lighter weight)
+- Whether the Gen Z panel has floating emojis around the product — and if so, how many and at what density
+- Which element is the brand anchor: logo bar at bottom, OR brand colour applied to all text
+- Portrait vs square format — both are valid, note what the references use
+- Copy position relative to product (above or below) — consistent across both panels
+
+Correct the prompt in `library.json` before marking the entry complete.
+
+---
+
+### 9. Verify it's searchable
 
 After adding, test that the template surfaces correctly:
 
@@ -182,7 +254,7 @@ It should appear near the top. If it doesn't, add more specific tags.
 
 ---
 
-### 9. Selecting from the library when given a brief
+### 10. Selecting from the library when given a brief
 
 When you receive a client brief, run `select` before picking a template:
 

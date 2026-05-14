@@ -466,8 +466,8 @@ function render() {
         </div>
       </div>
       <div class="card-footer">
-        <button class="btn" onclick="event.stopPropagation();copyCmd('${t.id}',this)">Copy command</button>
-        <button class="btn" onclick="event.stopPropagation();copyClaudePrompt('${t.id}',this)" title="Copy a ready-made Claude prompt for this template">Ask Claude</button>
+        <button class="btn" onclick="event.stopPropagation();copyCmd('${t.id}',this)">Copy Prompt</button>
+        <button class="btn" onclick="event.stopPropagation();copyClaudePrompt('${t.id}',this)" title="Copy a ready-made Claude prompt for this template">Ask Kee</button>
       </div>
     </div>`;
   }).join('');
@@ -479,7 +479,7 @@ function copyCmd(id, btn) {
   navigator.clipboard.writeText(peelgenCmd(t));
   btn.textContent = 'Copied!';
   btn.classList.add('copied');
-  setTimeout(() => { btn.textContent = 'Copy command'; btn.classList.remove('copied'); }, 1800);
+  setTimeout(() => { btn.textContent = 'Copy Prompt'; btn.classList.remove('copied'); }, 1800);
 }
 
 function copyClaudePrompt(id, btn) {
@@ -488,7 +488,7 @@ function copyClaudePrompt(id, btn) {
   navigator.clipboard.writeText(claudePrompt(t));
   btn.textContent = 'Copied!';
   btn.classList.add('copied');
-  setTimeout(() => { btn.textContent = 'Ask Claude'; btn.classList.remove('copied'); }, 1800);
+  setTimeout(() => { btn.textContent = 'Ask Kee'; btn.classList.remove('copied'); }, 1800);
 }
 
 // ── Detail panel ───────────────────────────────────────────────────────────
