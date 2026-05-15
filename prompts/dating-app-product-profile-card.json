@@ -1,0 +1,239 @@
+{
+  "template_meta": {
+    "name": "Dating_App_Product_Profile_Card",
+    "version": "1.0",
+    "base_resolution": "2000x2000px",
+    "aspect_ratio": "1:1",
+    "description": "A product presented as a dating app profile card. The product bottle overflows the top edge of the card. Background gradient matches the product shade/tone. Copy is written in first-person as if the product is a person on a dating app."
+  },
+
+  "user_inputs": {
+    "app_name": "[INSERT APP OR STORE NAME — e.g. Cosmetic Capital]",
+    "brand_name": "[INSERT BRAND NAME — e.g. L'Oreal]",
+    "product_name": "[INSERT PRODUCT NAME — e.g. True Match Foundation]",
+    "product_variant": "[INSERT SHADE / VARIANT LABEL — e.g. 25]",
+    "product_image": "[UPLOAD PRODUCT IMAGE — transparent PNG strongly preferred]",
+    "pronoun_label": "[INSERT PRONOUNS — e.g. She/Her]",
+    "looking_for_text": "[INSERT BIO LINE — write as if the product is introducing itself on a dating app. One sentence, witty. e.g. Looking for a long-term relationship. I won't ghost you, and I cost 50% less than your ex.]",
+    "card_gradient_top_hex": "[INSERT TOP GRADIENT COLOUR — match to product shade, e.g. #C2906A]",
+    "card_gradient_bottom_hex": "[INSERT BOTTOM GRADIENT COLOUR — lighter/warmer version of top, e.g. #E8C4A0]",
+    "action_buttons": [
+      { "icon": "rewind_arrow",  "color_hex": "#F5A623" },
+      { "icon": "x_cross",       "color_hex": "#E05252" },
+      { "icon": "star",          "color_hex": "#4A90D9" },
+      { "icon": "heart",         "color_hex": "#4ECDC4" },
+      { "icon": "lightning_bolt","color_hex": "#9B59B6" }
+    ]
+  },
+
+  "layout_structure": {
+    "canvas": {
+      "width": 2000,
+      "height": 2000,
+      "background_color": "#F2F2F2"
+    },
+
+    "sections": [
+
+      {
+        "id": "app_header",
+        "type": "container",
+        "area": { "top": "0%", "height": "9%", "left": "0%", "right": "0%" },
+        "fill": "#FFFFFF",
+        "border_bottom": "1px solid #E8E8E8",
+        "elements": [
+          {
+            "id": "app_name_label",
+            "type": "text",
+            "content": "{user_inputs.app_name}",
+            "alignment": "center",
+            "vertical_alignment": "middle",
+            "font_family": "Sans-serif, medium weight",
+            "font_size": "medium",
+            "font_weight": "600",
+            "color": "#1A1A1A",
+            "letter_spacing": "0.01em"
+          }
+        ]
+      },
+
+      {
+        "id": "profile_card",
+        "type": "container",
+        "area": { "top": "9%", "height": "78%", "left": "4%", "right": "4%" },
+        "fill_gradient": {
+          "type": "linear",
+          "direction": "top_to_bottom",
+          "color_start": "{user_inputs.card_gradient_top_hex}",
+          "color_end": "{user_inputs.card_gradient_bottom_hex}"
+        },
+        "border_radius": "40px",
+        "overflow": "visible",
+        "shadow": "0 8px 32px rgba(0,0,0,0.10)",
+        "elements": [
+
+          {
+            "id": "product_hero",
+            "type": "image_container",
+            "source": "{user_inputs.product_image}",
+            "position": { "x": "68%", "y": "-4%" },
+            "width": "42%",
+            "anchor": "top_center",
+            "overflow_direction": "upward",
+            "overflow_note": "Product top (cap/pump) bleeds above the card boundary into the white header zone. Bottom of product sits at approximately 55% card height.",
+            "rendering": {
+              "style": "photorealistic studio product shot",
+              "background": "transparent",
+              "lighting": "Soft diffused studio lighting. Key light from top-right. Subtle specular highlight on bottle shoulder and cap. No harsh glare.",
+              "shadow": "Soft diffused drop shadow directly beneath product base, fading toward the card edges. Shadow colour is a darker tint of the card gradient."
+            }
+          },
+
+          {
+            "id": "product_name_group",
+            "type": "text_block",
+            "position": { "x": "6%", "y": "55%" },
+            "width": "58%",
+            "elements": [
+              {
+                "id": "product_name_line",
+                "type": "text",
+                "content": "{user_inputs.brand_name} {user_inputs.product_name}",
+                "font_family": "Sans-serif",
+                "font_size": "xx-large",
+                "font_weight": "800",
+                "color": "#FFFFFF",
+                "line_height": "1.1",
+                "letter_spacing": "-0.01em"
+              },
+              {
+                "id": "shade_badge",
+                "type": "inline_pill",
+                "content": "{user_inputs.product_variant}",
+                "layout": "inline — sits to the right of the last word on the product name line",
+                "font_size": "medium",
+                "font_weight": "700",
+                "color": "#FFFFFF",
+                "background": "rgba(255,255,255,0.28)",
+                "border": "1.5px solid rgba(255,255,255,0.5)",
+                "border_radius": "50%",
+                "padding": "8px 14px"
+              }
+            ]
+          },
+
+          {
+            "id": "pronoun_field",
+            "type": "icon_text_row",
+            "position": { "x": "6%", "y": "76%" },
+            "elements": [
+              {
+                "id": "pronoun_icon",
+                "type": "icon",
+                "icon_name": "gender_pronoun_circle",
+                "size": "18px",
+                "color": "rgba(255,255,255,0.85)"
+              },
+              {
+                "id": "pronoun_text",
+                "type": "text",
+                "content": "{user_inputs.pronoun_label}",
+                "font_size": "small",
+                "font_weight": "400",
+                "color": "rgba(255,255,255,0.90)",
+                "margin_left": "6px"
+              }
+            ]
+          },
+
+          {
+            "id": "looking_for_field",
+            "type": "icon_text_row",
+            "position": { "x": "6%", "y": "82%" },
+            "width": "88%",
+            "elements": [
+              {
+                "id": "looking_for_icon",
+                "type": "icon",
+                "icon_name": "magnifying_glass",
+                "size": "18px",
+                "color": "rgba(255,255,255,0.85)"
+              },
+              {
+                "id": "looking_for_text",
+                "type": "text",
+                "content": "{user_inputs.looking_for_text}",
+                "font_size": "small",
+                "font_weight": "400",
+                "color": "rgba(255,255,255,0.90)",
+                "line_height": "1.45",
+                "margin_left": "6px"
+              }
+            ]
+          }
+
+        ]
+      },
+
+      {
+        "id": "action_buttons_row",
+        "type": "container",
+        "area": { "top": "88%", "height": "11%", "left": "0%", "right": "0%" },
+        "fill": "#F2F2F2",
+        "layout": "horizontal_center",
+        "gap": "4%",
+        "vertical_alignment": "middle",
+        "elements": [
+          {
+            "id": "btn_rewind",
+            "type": "circle_button",
+            "icon": "{user_inputs.action_buttons[0].icon}",
+            "icon_color": "{user_inputs.action_buttons[0].color_hex}",
+            "background": "#FFFFFF",
+            "diameter": "72px",
+            "shadow": "0 3px 10px rgba(0,0,0,0.12)"
+          },
+          {
+            "id": "btn_nope",
+            "type": "circle_button",
+            "icon": "{user_inputs.action_buttons[1].icon}",
+            "icon_color": "{user_inputs.action_buttons[1].color_hex}",
+            "background": "#FFFFFF",
+            "diameter": "72px",
+            "shadow": "0 3px 10px rgba(0,0,0,0.12)"
+          },
+          {
+            "id": "btn_super_like",
+            "type": "circle_button",
+            "icon": "{user_inputs.action_buttons[2].icon}",
+            "icon_color": "{user_inputs.action_buttons[2].color_hex}",
+            "background": "#FFFFFF",
+            "diameter": "72px",
+            "shadow": "0 3px 10px rgba(0,0,0,0.12)"
+          },
+          {
+            "id": "btn_like",
+            "type": "circle_button",
+            "icon": "{user_inputs.action_buttons[3].icon}",
+            "icon_color": "{user_inputs.action_buttons[3].color_hex}",
+            "background": "#FFFFFF",
+            "diameter": "72px",
+            "shadow": "0 3px 10px rgba(0,0,0,0.12)"
+          },
+          {
+            "id": "btn_boost",
+            "type": "circle_button",
+            "icon": "{user_inputs.action_buttons[4].icon}",
+            "icon_color": "{user_inputs.action_buttons[4].color_hex}",
+            "background": "#FFFFFF",
+            "diameter": "72px",
+            "shadow": "0 3px 10px rgba(0,0,0,0.12)"
+          }
+        ]
+      }
+
+    ]
+  },
+
+  "generative_image_prompt": "A 2000x2000px square social media ad styled as a dating app profile screen. White header bar at the very top (approx 9% of height) with '{user_inputs.app_name}' centered in medium-weight dark sans-serif. Below, a large rounded-corner card (border-radius ~40px) fills most of the canvas with a smooth linear gradient from {user_inputs.card_gradient_top_hex} at the top to {user_inputs.card_gradient_bottom_hex} at the bottom, with a light drop shadow. The product ({user_inputs.product_image}) is placed on the right side of the card — the bottle cap and upper portion bleeds upward above the card's top edge into the white header zone, as if the product is 'standing up' through the card boundary. The product is rendered photorealistically with soft studio lighting, a specular highlight on the cap, and a soft grounded shadow at the base. On the lower-left of the card: large extrabold white sans-serif text reading '{user_inputs.brand_name} {user_inputs.product_name}' (approx 78px, line-height 1.1), with a small semi-transparent frosted circular badge showing '{user_inputs.product_variant}' inline to the right. Below the name: two icon+text rows in small white text — first row: a pronoun circle icon + '{user_inputs.pronoun_label}'; second row: a magnifying glass icon + '{user_inputs.looking_for_text}'. Below the card, on the light grey canvas: a centred horizontal row of 5 white circular buttons (diameter ~72px, soft shadow), each containing a coloured icon — amber rewind arrow, coral-red X cross, blue star, teal heart, purple lightning bolt. The aesthetic precisely mimics a Tinder/Bumble profile swipe screen adapted as a product ad."
+}

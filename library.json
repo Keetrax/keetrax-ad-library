@@ -5299,6 +5299,26 @@
       ],
       "reverse_engineered_from": "Subway mini cookies tic-tac-toe ad, May 2026",
       "added_at": "2026-05-15"
+    },
+    {
+      "id": "keetrax-20260515-00004",
+      "source": "keetrax",
+      "name": "Social Proof Split — Transparent Checkout",
+      "description": "Full-bleed lifestyle photo with large outlined brand name overlay; a floating white e-commerce card on the right shows the product, your price vs. competitor prices (strikethrough), and a CTA — bridges aspirational social proof with transparent pricing in one frame.",
+      "prompt": "A 1080x1350px (4:5 portrait) social media ad. Full-bleed lifestyle photograph as canvas — no border, no phone mockup, no frame. BACKGROUND: authentic lifestyle scene edge-to-edge. A person in outdoor/product-relevant clothing in the foreground-left. Dark moody colour grade, deep shadows in upper corners. OVERLAY 1 (top-centre, y≈4%): [INSERT STORE URL] — small, bold, white, all-caps, wide letter-spacing. OVERLAY 2 (top-centre, y≈8%–22%): [INSERT BRAND NAME PART 1] in white + [INSERT BRAND NAME PART 2] in [INSERT ACCENT HEX] — ultra-wide tracked heavy display type, outline/transparent fill so lifestyle photo bleeds through. FLOATING E-COMMERCE CARD (right side, y≈32%–100%, x≈44%–100%): solid white card, slight rounded corners. CARD HEADER: heart icon | [UPLOAD LOGO IMAGE] centred | cart icon. PRODUCT IMAGE: [UPLOAD PRODUCT IMAGE] on white, centred, ~35% card height. CAROUSEL DOTS below product image. CATEGORY LINE: [INSERT CATEGORY] • [INSERT BRAND]. PRODUCT NAME: [INSERT PRODUCT NAME] — heavy weight, dark. BADGES: IN STOCK | FREE DELIVERY. PRICE ROW: left=[INSERT STORE SHORT NAME] + FREE DELIVERY; right=[INSERT OUR PRICE] bold + [INSERT RRP] grey strikethrough. BUY NOW BUTTON: full-width black, 'Buy Now →' white bold. SEPARATOR. COMPETITOR ROW 1: [INSERT COMPETITOR 1 NAME] + STANDARD DELIVERY | [INSERT COMPETITOR 1 PRICE] →. SEPARATOR. COMPETITOR ROW 2: [INSERT COMPETITOR 2 NAME] + STANDARD DELIVERY | [INSERT COMPETITOR 2 PRICE] →. SEPARATOR. PRICE MATCH ROW: shield icon + PRICE MATCH PROMISE + [INSERT PRICE MATCH NOTE] | See terms →. Output: 1080x1350px, 4:5, RGB, photorealistic.",
+      "category": "social-proof",
+      "product_types": ["home-electronics", "health-beauty", "pets"],
+      "tags": ["lifestyle", "split-layout", "social-proof", "comparison", "white-bg", "bold-type", "full-bleed", "floating-card"],
+      "mood": ["premium", "trustworthy", "clean"],
+      "use_cases": ["conversion", "trust-building"],
+      "layout": "full-bleed-lifestyle-with-card",
+      "text_density": "medium",
+      "preview_images": [
+        "previews/keetrax-20260515-00004/ref_01.png",
+        "previews/keetrax-20260515-00004/gen_01.png"
+      ],
+      "reverse_engineered_from": "Right Hook Ad Lab — Culture Circle / CLIQUE sneaker carousel, April 2026",
+      "added_at": "2026-05-16"
     }
   ]
 }
