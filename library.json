@@ -5213,6 +5213,47 @@
       ],
       "reverse_engineered_from": "Sweet Splits ad, May 2026",
       "added_at": "2026-05-15"
+    },
+    {
+      "id": "keetrax-20260515-00002",
+      "source": "keetrax",
+      "name": "Whiteboard Price Reveal",
+      "description": "A real-world whiteboard prop becomes the ad surface \u2014 pricing written in marker style (WAS/NOW with strikethrough), products standing in front, starburst savings badge. Honest and handmade in feel.",
+      "prompt": "{\"template_meta\": {\"name\": \"Whiteboard_Price_Reveal\", \"version\": \"1.0\", \"base_resolution\": \"2000x2000px\", \"aspect_ratio\": \"1:1\", \"description\": \"A real-world whiteboard prop becomes the ad surface \\u2014 pricing is written in marker style, products stand in front, giving a transparent handmade feel that breaks the scroll.\"}, \"user_inputs\": {\"brand_name\": \"[INSERT BRAND NAME]\", \"product_image\": \"[INSERT PRODUCT IMAGE]\", \"logo_image\": \"[INSERT LOGO IMAGE]\", \"bundle_label\": \"[INSERT BUNDLE LABEL]\", \"savings_amount\": \"[INSERT SAVINGS AMOUNT]\", \"original_price\": \"[INSERT ORIGINAL PRICE]\", \"sale_price\": \"[INSERT SALE PRICE]\", \"exclusivity_line\": \"[INSERT EXCLUSIVITY LINE]\", \"brand_accent_color_hex\": \"[INSERT BRAND ACCENT COLOR HEX]\"}, \"layout_structure\": {\"canvas\": {\"width\": 2000, \"height\": 2000, \"background_color\": \"#F0E9DE\"}, \"sections\": [{\"id\": \"wall_background\", \"type\": \"container\", \"area\": {\"top\": \"0%\", \"height\": \"100%\", \"left\": \"0%\", \"right\": \"0%\"}, \"fill\": \"#F0E9DE\", \"note\": \"Warm off-white plaster wall texture \\u2014 subtle, matte, photographically real\", \"elements\": []}, {\"id\": \"whiteboard\", \"type\": \"container\", \"area\": {\"top\": \"8%\", \"height\": \"82%\", \"left\": \"4%\", \"right\": \"4%\"}, \"fill\": \"#FAFAF8\", \"border\": \"14px solid #C0C0C0\", \"border_radius\": \"6px\", \"box_shadow\": \"6px 8px 24px rgba(0,0,0,0.20)\", \"overflow\": \"visible\", \"elements\": [{\"id\": \"savings_badge\", \"type\": \"shape\", \"shape_type\": \"starburst_10pt\", \"position\": {\"x\": \"74%\", \"y\": \"18%\"}, \"width\": \"22%\", \"fill\": \"none\", \"stroke_color\": \"{user_inputs.brand_accent_color_hex}\", \"stroke_width\": \"3px\", \"child_text\": {\"content\": \"{user_inputs.bundle_label}\\n{user_inputs.savings_amount}\", \"font_family\": \"handwritten marker sans-serif\", \"font_size\": \"x-small\", \"font_weight\": \"700\", \"color\": \"{user_inputs.brand_accent_color_hex}\", \"alignment\": \"center\"}}, {\"id\": \"was_price\", \"type\": \"text\", \"position\": {\"x\": \"50%\", \"y\": \"38%\"}, \"width\": \"45%\", \"content\": \"WAS {user_inputs.original_price}\", \"font_family\": \"handwritten marker sans-serif\", \"font_size\": \"large\", \"font_weight\": \"600\", \"color\": \"#CC2200\", \"line_height\": \"1.1\", \"alignment\": \"left\", \"text_decoration\": \"strikethrough\", \"strikethrough_color\": \"#CC2200\", \"strikethrough_weight\": \"4px\"}, {\"id\": \"now_label\", \"type\": \"text\", \"position\": {\"x\": \"50%\", \"y\": \"50%\"}, \"width\": \"20%\", \"content\": \"NOW\", \"font_family\": \"handwritten marker sans-serif\", \"font_size\": \"medium\", \"font_weight\": \"700\", \"color\": \"#1A1A2E\", \"alignment\": \"left\"}, {\"id\": \"sale_price\", \"type\": \"text\", \"position\": {\"x\": \"50%\", \"y\": \"62%\"}, \"width\": \"48%\", \"content\": \"{user_inputs.sale_price}\", \"font_family\": \"handwritten marker sans-serif\", \"font_size\": \"xx-large\", \"font_weight\": \"900\", \"color\": \"#1A1A2E\", \"line_height\": \"1.0\", \"alignment\": \"left\"}, {\"id\": \"exclusivity_text\", \"type\": \"text\", \"position\": {\"x\": \"52%\", \"y\": \"80%\"}, \"width\": \"42%\", \"content\": \"{user_inputs.exclusivity_line}\", \"font_family\": \"clean sans-serif (Helvetica, Arial)\", \"font_size\": \"x-small\", \"font_weight\": \"400\", \"color\": \"#555555\", \"alignment\": \"left\"}, {\"id\": \"brand_logo\", \"type\": \"image_container\", \"source\": \"{user_inputs.logo_image}\", \"position\": {\"x\": \"66%\", \"y\": \"88%\"}, \"width\": \"28%\", \"anchor\": \"center\", \"rendering\": {\"style\": \"render logo directly on whiteboard surface \\u2014 no white box, no background rectangle, logo colours sit on the whiteboard material itself as if printed or applied directly\", \"shadow\": \"none\"}}, {\"id\": \"product_hero\", \"type\": \"image_container\", \"source\": \"{user_inputs.product_image}\", \"position\": {\"x\": \"22%\", \"y\": \"90%\"}, \"width\": \"38%\", \"anchor\": \"bottom_center\", \"overflow_direction\": \"none\", \"rendering\": {\"style\": \"photorealistic product group shot, upright, slightly angled for depth\", \"lighting\": \"soft ambient, gentle key light from upper-left\", \"shadow\": \"soft realistic drop shadow directly below products onto whiteboard surface\"}}]}]}, \"generative_image_prompt\": \"Create a 2000x2000px square advertisement photograph. The overall scene shows a large landscape whiteboard mounted on a warm off-white cream wall (wall colour approximately #F0E9DE, matte plaster texture, photographically real). The whiteboard dominates the frame: it occupies roughly 90% of the canvas width and 82% of the canvas height, centered with small wall margins visible on all four sides. The whiteboard has a silver-grey metallic border frame (approx 14px), slight rounding at corners, and a soft drop shadow (6px right, 8px down, 24px blur, 20% opacity black). The whiteboard surface is near-white (#FAFAF8) with a subtle matte texture \\u2014 it reads as a real physical whiteboard, not a flat digital rectangle.\\n\\nOn the whiteboard, in the upper-right quadrant (approximately 74% from left, 18% from top of whiteboard), draw a hand-drawn starburst badge: 10-pointed irregular burst outline in [INSERT BRAND ACCENT COLOR HEX], stroke width 3px, fill none. Inside the starburst in handwritten marker text in the same [INSERT BRAND ACCENT COLOR HEX] colour: '[INSERT BUNDLE LABEL]' on the first line and '[INSERT SAVINGS AMOUNT]' on the second line. Text is x-small, bold, centred within the burst.\\n\\nIn the center-right area of the whiteboard (approximately 50% from left, 38% from top), write in red handwritten marker text: 'WAS [INSERT ORIGINAL PRICE]' \\u2014 medium-large casual marker strokes, with a thick red horizontal strikethrough line crossing it out completely (#CC2200, approx 4px weight).\\n\\nDirectly below (approximately 50% from left, 50% from top), write 'NOW' in dark navy/near-black (#1A1A2E) handwritten marker, medium size, bold. Below that (approximately 50% from left, 60% from top), write '[INSERT SALE PRICE]' in the same dark navy/near-black (#1A1A2E) handwritten marker \\u2014 this is the largest text on the board, xx-large, heaviest marker weight, making the deal feel unmissable.\\n\\nIn the lower-right area of the whiteboard (approximately 52% from left, 80% from top), in small clean grey sans-serif text (not handwritten): '[INSERT EXCLUSIVITY LINE]'. Directly below that, the [INSERT BRAND NAME] brand logo ([INSERT LOGO IMAGE]) at approximately 28% whiteboard width, centred at 66% from left, 88% from top of whiteboard.\\n\\nIn the left half of the whiteboard (centred around 22% from left, bottom-anchored to approximately 90% from top), display the product ([INSERT PRODUCT IMAGE]) as a photorealistic product shot: upright, slightly angled arrangement, natural studio-style. Soft ambient lighting, gentle key light from upper-left. Products cast a subtle soft drop shadow directly below them onto the whiteboard surface. Product group occupies approximately 38% of whiteboard width, sitting fully within the whiteboard boundaries.\\n\\nOutput: 2000x2000px square, 1:1 ratio, RGB. Mood: honest, direct, handmade \\u2014 like a store manager wrote the deal on the office whiteboard. Photographically real scene with genuine depth and lighting. No extra text, decorative elements, or graphic overlays beyond what is specified.\"}",
+      "category": "product-photo",
+      "product_types": [
+        "health-beauty",
+        "home-electronics",
+        "food-beverage",
+        "pets"
+      ],
+      "tags": [
+        "white-bg",
+        "sale",
+        "bold-type",
+        "floating-product",
+        "badges",
+        "minimal-text",
+        "pattern-interrupt"
+      ],
+      "mood": [
+        "trustworthy",
+        "casual",
+        "direct"
+      ],
+      "use_cases": [
+        "conversion",
+        "sale",
+        "bundle-deal"
+      ],
+      "layout": "scene",
+      "text_density": "medium",
+      "preview_images": [
+        "previews/keetrax-20260515-00002/ref_01.png",
+        "previews/keetrax-20260515-00002/gen_01.png"
+      ],
+      "reverse_engineered_from": "Wet & Forget Window Witch bundle deal ad, May 2026",
+      "added_at": "2026-05-15"
     }
   ]
 }
