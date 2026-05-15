@@ -5,28 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Keetrax Ad Library</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #0f0f11;
-    --surface: #18181b;
-    --surface2: #222226;
-    --border: #2a2a2f;
-    --accent: #7c6fef;
-    --accent2: #a78bfa;
-    --text: #f4f4f5;
-    --muted: #71717a;
-    --muted2: #52525b;
-    --tag-bg: #27272a;
-    --tag-text: #a1a1aa;
-    --green: #34d399;
+    --bg: #f6f0fa;
+    --surface: #ffffff;
+    --surface2: #f8f2fb;
+    --border: #eadff3;
+    --accent: #3d235f;
+    --accent2: #e0678c;
+    --text: #2d1c43;
+    --muted: #715d87;
+    --muted2: #9885ab;
+    --tag-bg: #f1e8f8;
+    --tag-text: #5e4479;
+    --green: #1e9a6d;
     --radius: 10px;
     --sidebar: 256px;
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
-    background: var(--bg);
+    font-family: "Open Sans", "Segoe UI", sans-serif;
+    background:
+      radial-gradient(1100px 400px at 100% -10%, rgba(224,103,140,.16), transparent 60%),
+      radial-gradient(900px 380px at -10% -20%, rgba(61,35,95,.1), transparent 64%),
+      var(--bg);
     color: var(--text);
     min-height: 100vh;
     font-size: 14px;
@@ -41,12 +46,14 @@
     padding: 12px 20px;
     background: var(--surface);
     border-bottom: 1px solid var(--border);
+    box-shadow: 0 8px 24px rgba(61, 35, 95, .06);
     flex-shrink: 0;
     z-index: 10;
   }
 
   .logo {
-    font-weight: 700; font-size: 16px; letter-spacing: -.3px; white-space: nowrap;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 800; font-size: 16px; letter-spacing: -.2px; white-space: nowrap;
     color: var(--text);
   }
   .logo span { color: var(--accent2); }
@@ -57,9 +64,9 @@
     width: 100%; padding: 8px 12px 8px 34px;
     background: var(--surface2); border: 1px solid var(--border);
     border-radius: 8px; color: var(--text); font-size: 14px;
-    outline: none; transition: border-color .15s;
+    outline: none; transition: border-color .15s, box-shadow .15s;
   }
-  #search:focus { border-color: var(--accent); }
+  #search:focus { border-color: var(--accent2); box-shadow: 0 0 0 3px rgba(224,103,140,.16); }
   #search::placeholder { color: var(--muted); }
 
   .stats { color: var(--muted); font-size: 13px; white-space: nowrap; margin-left: auto; }
@@ -90,12 +97,12 @@
     transition: background .1s, color .1s, border-color .1s;
   }
   .filter-btn:hover { background: var(--surface2); color: var(--text); }
-  .filter-btn.active { color: var(--accent2); border-left-color: var(--accent); background: rgba(124,111,239,.08); }
+  .filter-btn.active { color: var(--accent); border-left-color: var(--accent2); background: rgba(224,103,140,.12); }
   .filter-btn .count {
     font-size: 11px; color: var(--muted2); background: var(--tag-bg);
     padding: 1px 6px; border-radius: 10px;
   }
-  .filter-btn.active .count { background: rgba(124,111,239,.2); color: var(--accent2); }
+  .filter-btn.active .count { background: rgba(61,35,95,.12); color: var(--accent); }
 
   .divider { height: 1px; background: var(--border); margin: 8px 16px; }
 
@@ -114,11 +121,12 @@
     border-radius: var(--radius);
     overflow: hidden;
     display: flex; flex-direction: column;
-    transition: border-color .15s, transform .15s;
+    box-shadow: 0 3px 14px rgba(61,35,95,.04);
+    transition: border-color .15s, transform .15s, box-shadow .15s;
     cursor: pointer;
   }
-  .card:hover { border-color: var(--accent); transform: translateY(-2px); }
-  .card.selected { border-color: var(--accent); outline: 2px solid var(--accent); outline-offset: -1px; }
+  .card:hover { border-color: var(--accent2); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(61,35,95,.1); }
+  .card.selected { border-color: var(--accent2); outline: 2px solid var(--accent2); outline-offset: -1px; }
 
   .card-img {
     width: 100%; aspect-ratio: 1/1; object-fit: cover;
@@ -135,12 +143,20 @@
   .card-body { padding: 12px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
 
   .card-name {
-    font-weight: 600; font-size: 13px; color: var(--text);
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-weight: 700; font-size: 13px; color: var(--text);
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .card-id {
+    font-size: 11px;
+    color: var(--muted2);
+    font-family: "SF Mono", "Fira Code", monospace;
+    word-break: break-all;
+    line-height: 1.35;
   }
   .card-desc {
     font-size: 12px; color: var(--muted);
-    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    display: -webkit-box; line-clamp: 2; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
 
   .card-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
@@ -149,7 +165,7 @@
     background: var(--tag-bg); color: var(--tag-text);
     white-space: nowrap;
   }
-  .pill.cat { background: rgba(124,111,239,.15); color: var(--accent2); }
+  .pill.cat { background: rgba(224,103,140,.14); color: #9d2c53; }
   .pill.source-keetrax { background: rgba(52,211,153,.15); color: var(--green); }
 
   .card-footer {
@@ -164,14 +180,14 @@
     transition: background .12s, color .12s, border-color .12s;
     text-align: center;
   }
-  .btn:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn:hover { background: linear-gradient(135deg, var(--accent), #5c378c); border-color: var(--accent); color: #fff; }
   .btn.copied { background: rgba(52,211,153,.15); border-color: var(--green); color: var(--green); }
 
   /* ── Detail panel ── */
   .detail {
     position: fixed; inset: 0; z-index: 100;
     display: flex; align-items: center; justify-content: center;
-    background: rgba(0,0,0,.7); backdrop-filter: blur(4px);
+    background: rgba(20,12,33,.7); backdrop-filter: blur(4px);
     padding: 20px;
     opacity: 0; pointer-events: none; transition: opacity .2s;
   }
@@ -197,7 +213,7 @@
   }
   .detail-thumb {
     width: 100%; aspect-ratio: 1/1; object-fit: cover;
-    border-radius: 8px; cursor: pointer; opacity: .6; transition: opacity .15s;
+    border-radius: 8px; cursor: zoom-in; opacity: .6; transition: opacity .15s;
     border: 2px solid transparent;
   }
   .detail-thumb.active, .detail-thumb:hover { opacity: 1; border-color: var(--accent); }
@@ -221,10 +237,10 @@
   .detail-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
 
   .cmd-block {
-    background: var(--bg); border: 1px solid var(--border);
+    background: #2f1f45; border: 1px solid #4c3469;
     border-radius: 8px; padding: 12px 14px;
     font-family: "SF Mono", "Fira Code", monospace; font-size: 12px;
-    color: #a5f3fc; white-space: pre-wrap; word-break: break-all;
+    color: #f8d8e3; white-space: pre-wrap; word-break: break-all;
     position: relative;
   }
   .cmd-copy {
@@ -236,6 +252,48 @@
   }
   .cmd-copy:hover { color: var(--text); }
   .cmd-copy.copied { color: var(--green); }
+
+  /* ── Image lightbox ── */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(19, 10, 32, .9);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s;
+  }
+  .lightbox.open {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .lightbox-img {
+    max-width: min(1200px, 96vw);
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, .45);
+    object-fit: contain;
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+  }
 
   /* ── Empty state ── */
   .empty {
@@ -253,7 +311,19 @@
   @media (max-width: 700px) {
     .sidebar { display: none; }
     .detail-panel { grid-template-columns: 1fr; }
-    .detail-img-col { display: none; }
+    .detail-img-col {
+      display: flex;
+      flex-direction: row;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      border-radius: 14px 14px 0 0;
+      overflow-x: auto;
+      padding: 12px;
+    }
+    .detail-thumb {
+      width: 124px;
+      min-width: 124px;
+    }
   }
 </style>
 </head>
@@ -289,6 +359,12 @@
     <div class="detail-img-col" id="detail-imgs"></div>
     <div class="detail-content" id="detail-content"></div>
   </div>
+</div>
+
+<!-- Full-screen preview lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" type="button" aria-label="Close image preview" onclick="closeImageLightbox()">✕</button>
+  <img class="lightbox-img" id="lightbox-img" alt="Template preview">
 </div>
 
 <script>
@@ -458,6 +534,7 @@ function render() {
       ${imgEl}
       <div class="card-body">
         <div class="card-name" title="${t.name || 'Untitled'}">${t.name || 'Untitled'}</div>
+        <div class="card-id" title="${t.id}">${t.id}</div>
         ${t.description ? `<div class="card-desc">${t.description}</div>` : ''}
         <div class="card-meta">
           <span class="pill cat">${label(t.category)}</span>
@@ -499,7 +576,7 @@ function openDetail(id) {
   const imgs = t.preview_images || [];
   const imgCol = document.getElementById('detail-imgs');
   imgCol.innerHTML = imgs.length
-    ? imgs.map((url, i) => `<img class="detail-thumb ${i===0?'active':''}" src="${url}" alt="Preview ${i+1}" onclick="setThumb(this, '${url}')">`).join('')
+    ? imgs.map((url, i) => `<img class="detail-thumb ${i===0?'active':''}" src="${url}" alt="Preview ${i+1}" onclick="setThumb(this, '${escAttr(url)}')">`).join('')
     : `<div style="color:var(--muted2);font-size:12px;padding:8px">No previews</div>`;
 
   const mainImg = imgs[0] || '';
@@ -508,7 +585,7 @@ function openDetail(id) {
     <div class="detail-header">
       <div>
         <div class="detail-name">${t.name || 'Untitled'}</div>
-        <div style="color:var(--muted);font-size:12px;margin-top:4px">${t.id.slice(0,8)}</div>
+        <div style="color:var(--muted);font-size:12px;margin-top:4px;word-break:break-all">${t.id}</div>
       </div>
       <button class="detail-close" onclick="closeDetail()">✕</button>
     </div>
@@ -565,12 +642,40 @@ function openDetail(id) {
 
 function closeDetail() { document.getElementById('detail').classList.remove('open'); }
 document.getElementById('detail').addEventListener('click', e => { if (e.target === e.currentTarget) closeDetail(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  const lb = document.getElementById('lightbox');
+  if (lb.classList.contains('open')) {
+    closeImageLightbox();
+    return;
+  }
+  closeDetail();
+});
 
 function setThumb(el, url) {
   document.querySelectorAll('.detail-thumb').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
+  openImageLightbox(url, 'Template preview');
 }
+
+function openImageLightbox(url, altText) {
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  img.src = url;
+  img.alt = altText || 'Template preview';
+  lb.classList.add('open');
+}
+
+function closeImageLightbox() {
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  lb.classList.remove('open');
+  img.src = '';
+}
+
+document.getElementById('lightbox').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeImageLightbox();
+});
 
 function copyText(btn, text) {
   navigator.clipboard.writeText(text);
@@ -583,7 +688,11 @@ function escHtml(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 function escAttr(s) {
-  return String(s).replace(/\\/g,'\\\\').replace(/`/g,'\\`').replace(/\$/g,'\\$');
+  return String(s)
+    .replace(/\\/g,'\\\\')
+    .replace(/`/g,'\\`')
+    .replace(/\$/g,'\\$')
+    .replace(/'/g,"\\'");
 }
 
 // ── Search ─────────────────────────────────────────────────────────────────
