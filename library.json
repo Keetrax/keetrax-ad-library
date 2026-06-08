@@ -5496,6 +5496,44 @@
       ],
       "reverse_engineered_from": "Creatine Monohydrate Gummies ad, Jun 2026",
       "added_at": "2026-06-08"
+    },
+    {
+      "id": "keetrax-20260608-00002",
+      "source": "keetrax",
+      "name": "Product vs Generic Split Comparison",
+      "description": "Vertical split: branded product on brand-colour left with 4 benefit callouts vs. generic competitor on kraft-tan right with 4 drawback callouts \u2014 thin curved arrows point toward each product.",
+      "prompt": "A 2000x2000px square product comparison advertisement with generous margins. The canvas has 8% blank white padding on all four sides \u2014 no content touches the edges.\n\nThe inner area (inside the margins) is split cleanly in half by a hard vertical edge at exactly 50% width \u2014 no border, line, or shadow at the seam.\n\nLEFT HALF (x: 0\u201350% of inner area): Background colour [LEFT_BG]. Soft photographic cloud texture visible in the lower-left quadrant.\n\nRIGHT HALF (x: 50\u2013100% of inner area): Background colour [RIGHT_BG]. Clean, plain, slightly matte.\n\nMargins outside the inner area: white (#FFFFFF).\n\nPRODUCTS \u2014 CRITICAL:\nA single composite product sits centred at the seam. The vertical split line cuts directly through the middle of this composite, so the left half of the product sits in the left panel and the right half sits in the right panel. The combined product width is approximately 35\u201340% of the total canvas width (compact \u2014 not dominant). The product height is no more than 50% of the canvas height.\n\nLeft half of the composite: the branded [INSERT BRAND NAME] product ([INSERT PRODUCT NAME]) \u2014 rich label, premium appearance, warm amber honey visible, soft studio lighting with gentle drop shadow.\nRight half of the composite: a generic supermarket honey jar \u2014 [INSERT COMPETITOR_DESC] \u2014 plain white label, unremarkable, flat lighting.\n\nThe seam runs right down the middle of this paired product \u2014 the left half background is [LEFT_BG] and the right half background is [RIGHT_BG], cutting cleanly between the two halves.\n\nTEXT CALLOUTS \u2014 all in [TEXT_CLR], clean light-weight sans-serif (~20\u201322px equivalent), centre-aligned within compact text blocks. Text is annotation-sized, sitting well clear of the product in the open space on each side:\n\nLeft panel callouts (benefits of the branded product):\n1. Top-left (~13% from left edge, 11% from top): \"[INSERT BENEFIT_ONE]\" \u2014 1\u20132 lines. Thin curved arrow in [TEXT_CLR] curves down-right toward the left half of the product.\n2. Far left middle (~7% from left, 39% from top): \"[INSERT BENEFIT_TWO]\" \u2014 1\u20132 lines. Thin curved arrow curves right toward the left half of the product.\n3. Left lower-centre (~7% from left, 57% from top): \"[INSERT BENEFIT_THREE]\" \u2014 1 line. Thin curved arrow curves right toward the left half of the product.\n4. Bottom-left (~11% from left, 77% from top): \"[INSERT BENEFIT_FOUR]\" \u2014 1\u20132 lines. Thin curved arrow curves up-right toward the left half of the product.\n\nRight panel callouts (drawbacks of the competitor product):\n1. Upper-right (~59% from left, 11% from top): \"[INSERT DRAWBACK_ONE]\" \u2014 1\u20132 lines. Thin curved arrow in [TEXT_CLR] curves down-left toward the right half of the product.\n2. Far right middle (~77% from left, 39% from top): \"[INSERT DRAWBACK_TWO]\" \u2014 1\u20132 lines. Thin curved arrow curves left toward the right half of the product.\n3. Right lower-centre (~79% from left, 57% from top): \"[INSERT DRAWBACK_THREE]\" \u2014 1 line. Thin curved arrow curves left toward the right half of the product.\n4. Bottom-right (~61% from left, 77% from top): \"[INSERT DRAWBACK_FOUR]\" \u2014 1\u20132 lines. Thin curved arrow curves up-left toward the right half of the product.\n\nAll arrows: thin strokes (~1.5px), [TEXT_CLR], small filled arrowhead at the product end, smooth organic curve. No logo, no headlines, no badges, no borders.\n\nOutput: 2000x2000px, 1:1 square, RGB, photorealistic, legible at 1080x1080px Instagram crop.",
+      "category": "comparisons",
+      "product_types": [
+        "health-beauty",
+        "food-beverage",
+        "home-electronics"
+      ],
+      "tags": [
+        "split-layout",
+        "benefit-list",
+        "comparison",
+        "minimal",
+        "natural"
+      ],
+      "mood": [
+        "clean",
+        "trustworthy",
+        "natural"
+      ],
+      "use_cases": [
+        "conversion",
+        "education",
+        "trust-building"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "previews/keetrax-20260608-00002/ref_01.png",
+        "previews/keetrax-20260608-00002/gen_01.png"
+      ],
+      "reverse_engineered_from": "Khloud Protein Popcorn Instagram ad, June 2026",
+      "added_at": "2026-06-08"
     }
   ]
 }
