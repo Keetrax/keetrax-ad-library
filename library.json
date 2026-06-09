@@ -5534,6 +5534,44 @@
       ],
       "reverse_engineered_from": "Khloud Protein Popcorn Instagram ad, June 2026",
       "added_at": "2026-06-08"
+    },
+    {
+      "id": "keetrax-20260609-00001",
+      "source": "keetrax",
+      "name": "Filling Up My Tank",
+      "description": "Relatable before/after social ad using a car fuel gauge metaphor \u2014 empty product left, fuel gauge centre, full product right, casual first-person caption headline at top and brand logo at bottom.",
+      "prompt": "A 1080x1350px portrait-format social media ad for [INSERT BRAND NAME] on a clean white background (#FFFFFF) with a very subtle warm [INSERT TINT HEX e.g. #FFF3E0] gradient tint building toward the bottom quarter of the canvas. Minimal, clean, lots of white space.\n\nTOP SECTION (top 28% of canvas height): Centred horizontally, vertically centred in that zone, is a two-line headline in [INSERT TEXT COLOR HEX e.g. #2C3E50]: '[INSERT HEADLINE e.g. Me filling up my tank:]' \u2014 clean geometric sans-serif font, bold weight (~700), approximately 52px equivalent, natural line break for rhythm, centred text alignment. Casual and relatable.\n\nMIDDLE SECTION (28%\u201380% of canvas): Three elements arranged horizontally:\n\nLEFT element (at ~20% from left edge, vertically centred in zone): A photorealistic product shot of [INSERT PRODUCT NAME] appearing NEAR-EMPTY \u2014 the product container is almost empty with just a thin layer of product remaining at the bottom. Label is visible but faded or partially peeled, suggesting the product is used up and depleted. No lid needed. Width approximately 28% of canvas. Minimal soft neutral shadow at base.\n\nCENTRE element (exactly 50% horizontal, ~52% vertical of full canvas): A simple flat line-art illustration of a car dashboard fuel gauge \u2014 semicircular dial with the letter 'E' at the left tip and 'F' at the right tip, a small fuel pump icon in the centre-bottom of the arc, and a needle pointing clearly toward the right/F side indicating a full tank. Rendered in [INSERT TEXT COLOR HEX], clean minimal strokes, transparent background. Width ~16% of canvas.\n\nRIGHT element (at ~80% from left edge, slightly higher at ~48% vertical): A photorealistic product shot of [INSERT PRODUCT NAME] appearing COMPLETELY FULL \u2014 vibrant and prominent. [INSERT FULL PRODUCT LABEL DESCRIPTION e.g. The jar has a black lid. The label is crimson red with gold botanical decorations, brand name at top, product name in script, size and MGO badge.] Width approximately 32% of canvas. Warm soft shadow at base.\n\nBOTTOM SECTION (80%\u2013100% of canvas): Clean white background. Centred horizontally and vertically: the brand logo/wordmark for [INSERT BRAND NAME] in [INSERT TEXT COLOR HEX], approximately 35% of canvas width. If a logo image is provided as a second input, reproduce it faithfully. Otherwise render the brand name in a clean serif font.\n\nOverall mood: clean, minimal, playful, relatable. Plenty of white breathing room. No decorative borders, no extra graphic elements. Output: 1080x1350px, 4:5 ratio, RGB, photorealistic product photography with clean flat illustration accent for the fuel gauge.",
+      "category": "comparisons",
+      "product_types": [
+        "health-beauty",
+        "food-beverage"
+      ],
+      "tags": [
+        "white-bg",
+        "before-after",
+        "comparison",
+        "playful",
+        "minimal-text",
+        "minimal",
+        "warm"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "warm"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "split",
+      "text_density": "low",
+      "preview_images": [
+        "previews/keetrax-20260609-00001/ref_01.png",
+        "previews/keetrax-20260609-00001/gen_01.png"
+      ],
+      "reverse_engineered_from": "Health Nag Instagram ad, June 2026",
+      "added_at": "2026-06-09"
     }
   ]
 }
