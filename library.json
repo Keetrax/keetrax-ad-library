@@ -5728,6 +5728,82 @@
       ],
       "reverse_engineered_from": "Dry July NZ Instagram Story ad, June 2026",
       "added_at": "2026-06-18"
+    },
+    {
+      "id": "keetrax-20260618-00002",
+      "source": "keetrax",
+      "name": "Dual Benefit Venn Diagram",
+      "description": "Two hand-drawn overlapping circles form a Venn diagram with a customer outcome in each — hero product held by a hand in the intersection to imply it delivers both results simultaneously.",
+      "prompt": "{\"template_meta\": {\"name\": \"Dual_Benefit_Venn_Diagram\", \"version\": \"1.0\", \"base_resolution\": \"1080x1350px\", \"aspect_ratio\": \"4:5\", \"description\": \"Two hand-drawn overlapping circles form a Venn diagram with a customer outcome in each circle, and the hero product held by a hand in the intersection — implying the product delivers both results simultaneously.\"}, \"user_inputs\": {\"brand_name\": \"[INSERT BRAND NAME — e.g. Pure Peony]\", \"product_name\": \"[INSERT PRODUCT NAME — e.g. High Factor Skin Remedy]\", \"product_image\": \"[UPLOAD PRODUCT IMAGE — transparent PNG or product-only JPG preferred]\", \"benefit_text_1\": \"[INSERT LEFT CIRCLE BENEFIT TEXT — e.g. My eczema hasn't flared up in MONTHS]\", \"benefit_text_2\": \"[INSERT RIGHT CIRCLE BENEFIT TEXT — e.g. I've finally stopped using STEROID CREAM]\", \"background_hex\": \"#FFFFFF\", \"circle_stroke_hex\": \"#2B2B2B\"}, \"layout_structure\": {\"canvas\": {\"width\": 1080, \"height\": 1350, \"background_color\": \"{user_inputs.background_hex}\", \"texture\": \"slightly warm white, like painted wall plaster — not pure digital white\"}, \"sections\": [{\"id\": \"venn_zone\", \"type\": \"container\", \"area\": {\"top\": \"4%\", \"height\": \"72%\", \"left\": \"2%\", \"right\": \"2%\"}, \"fill\": \"transparent\", \"elements\": [{\"id\": \"left_circle\", \"type\": \"shape\", \"shape\": \"circle\", \"center\": {\"x\": \"34%\", \"y\": \"38%\"}, \"radius\": \"29%\", \"stroke_color\": \"{user_inputs.circle_stroke_hex}\", \"stroke_width\": \"3px\", \"stroke_style\": \"hand-drawn felt-tip marker — slightly imperfect, organic, not geometrically perfect\", \"fill\": \"transparent\"}, {\"id\": \"right_circle\", \"type\": \"shape\", \"shape\": \"circle\", \"center\": {\"x\": \"66%\", \"y\": \"38%\"}, \"radius\": \"29%\", \"stroke_color\": \"{user_inputs.circle_stroke_hex}\", \"stroke_width\": \"3px\", \"stroke_style\": \"hand-drawn felt-tip marker — slightly imperfect, organic, matching left circle style\", \"fill\": \"transparent\"}, {\"id\": \"benefit_text_1\", \"type\": \"text_block\", \"position\": {\"x\": \"12%\", \"y\": \"22%\"}, \"width\": \"28%\", \"content\": \"{user_inputs.benefit_text_1}\", \"font_family\": \"casual handwriting (Caveat, Kalam, or similar)\", \"font_size\": \"large\", \"font_weight\": \"400\", \"color\": \"{user_inputs.circle_stroke_hex}\", \"alignment\": \"center\", \"line_height\": \"1.25\", \"rendering_note\": \"Words in ALL CAPS appear 1.3x larger and slightly bolder — natural speech emphasis\"}, {\"id\": \"benefit_text_2\", \"type\": \"text_block\", \"position\": {\"x\": \"60%\", \"y\": \"18%\"}, \"width\": \"28%\", \"content\": \"{user_inputs.benefit_text_2}\", \"font_family\": \"casual handwriting (Caveat, Kalam, or similar)\", \"font_size\": \"large\", \"font_weight\": \"400\", \"color\": \"{user_inputs.circle_stroke_hex}\", \"alignment\": \"center\", \"line_height\": \"1.25\", \"rendering_note\": \"Words in ALL CAPS appear 1.3x larger and slightly bolder — natural speech emphasis\"}]}, {\"id\": \"hand_product_zone\", \"type\": \"container\", \"area\": {\"top\": \"60%\", \"height\": \"40%\", \"left\": \"30%\", \"right\": \"30%\"}, \"fill\": \"transparent\", \"elements\": [{\"id\": \"hand_holding_product\", \"type\": \"image_container\", \"source\": \"{user_inputs.product_image}\", \"position\": {\"x\": \"50%\", \"y\": \"85%\"}, \"width\": \"45%\", \"anchor\": \"bottom_center\", \"overflow_direction\": \"upward\", \"rendering\": {\"style\": \"photorealistic — a natural skin-tone hand holds the product from below, emerging from the bottom of the frame\", \"hand\": \"relaxed casual grip — thumb on the side, palm cradling from underneath; no nail polish; unstaged feel\", \"product\": \"label clearly visible and facing the viewer\", \"lighting\": \"soft ambient room lighting — no harsh studio flash; matches white-wall background\", \"shadow\": \"very subtle diffuse shadow beneath the hand, softly grounding it\"}}]}]}, \"generative_image_prompt\": \"Create a 1080x1350px portrait ad in a native UGC aesthetic — clean, minimal, and authentic. The background is a smooth white wall (slightly warm, like painted plaster — not pure digital white). Drawn on the wall in thin black felt-tip pen are two large overlapping circles forming a classic Venn diagram. The circles are hand-drawn quality — slightly imperfect and organic, not geometrically perfect. The left circle is centred at approximately one-third from the left edge, sitting in the upper portion of the canvas. The right circle mirrors it on the right side. They overlap in the horizontal centre at roughly 38% down the image.\\n\\nInside the left circle (non-overlapping portion), write ONLY the following text in a casual handwriting font, centred, 2–3 lines, dark near-black ink: \\\"[INSERT LEFT CIRCLE BENEFIT TEXT — e.g. My eczema hasn't flared up in MONTHS]\\\" — write this text exactly as given, no additions. Words written in ALL CAPS within that text should appear noticeably larger and bolder than the surrounding lowercase words to convey natural vocal emphasis.\\n\\nInside the right circle (non-overlapping portion), write ONLY the following text in the same casual handwriting font, centred, 2–3 lines, dark near-black ink: \\\"[INSERT RIGHT CIRCLE BENEFIT TEXT — e.g. I've finally stopped using STEROID CREAM]\\\" — write this text exactly as given, no additions. Words in ALL CAPS appear larger and bolder.\\n\\nAt the bottom-centre of the image, a natural skin-tone hand extends upward from below the frame, casually holding the [INSERT PRODUCT NAME — e.g. High Factor Skin Remedy] by [INSERT BRAND NAME — e.g. Pure Peony]. The hand has a relaxed everyday grip — thumb on one side, fingers and palm supporting from beneath. The product is centred horizontally, sitting right in the intersection zone of the two Venn circles, with the label facing forward and clearly readable. No extra props or objects.\\n\\nThe overall mood is authentic UGC — like a real customer held up their product in front of a whiteboard. No logos, no borders, no brand overlay beyond the product label. Lighting is soft ambient room light. Output: 1080x1350px, 4:5 portrait, RGB, photorealistic.\"}",
+      "category": "social-proof",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "white-bg",
+        "hands",
+        "handwritten",
+        "centered",
+        "minimal-text",
+        "social-proof",
+        "pattern-interrupt"
+      ],
+      "mood": [
+        "clean",
+        "minimal",
+        "playful",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "brand-awareness",
+        "conversion"
+      ],
+      "layout": "centered",
+      "text_density": "low",
+      "preview_images": [
+        "previews/keetrax-20260618-00002/ref_01.png",
+        "previews/keetrax-20260618-00002/gen_01.png"
+      ],
+      "reverse_engineered_from": "Supplement brand Instagram feed ad, June 2026",
+      "added_at": "2026-06-18"
+    },
+    {
+      "id": "keetrax-20260622-00001",
+      "source": "keetrax",
+      "name": "Search Bar Parody Benefits",
+      "description": "Pattern-interrupt ad that mimics a Google search bar as the hook — consumer's pain point as the query, brand as the answer — with three icon-benefit rows on the left, hand holding product on the right, and logo footer, on a solid brand-colour background.",
+      "prompt": "{\"template_meta\": {\"name\": \"Search_Bar_Parody_Benefits\", \"version\": \"1.0\", \"base_resolution\": \"2000x2000px\", \"aspect_ratio\": \"1:1\", \"description\": \"Pattern-interrupt ad mimicking a Google search bar as the hook — consumer pain point as the search query, brand as the answer — with three icon-benefit rows left, hand-held product right, and logo footer on a solid brand-colour background.\"}, \"user_inputs\": {\"brand_name\": \"[INSERT BRAND NAME]\", \"product_name\": \"[INSERT PRODUCT NAME]\", \"product_image\": \"[UPLOAD PRODUCT IMAGE — pass via --image flag]\", \"logo_image\": \"[UPLOAD WHITE VERSION OF LOGO — pass via --logo flag; convert logo to white-on-transparent before uploading]\", \"search_query_text\": \"[INSERT SEARCH QUERY — consumer pain point as a search phrase, e.g. 'Steroid-free relief for eczema']\", \"brand_tagline\": \"[INSERT BRAND TAGLINE — italic line below search bar, e.g. 'Pure Peony: the farm-to-skin remedy']\", \"benefit_1_label\": \"[INSERT BENEFIT 1 — 2-3 words]\", \"benefit_2_label\": \"[INSERT BENEFIT 2 — 2-3 words]\", \"benefit_3_label\": \"[INSERT BENEFIT 3 — 2-3 words]\", \"benefit_1_icon\": \"[INSERT ICON — e.g. lightning bolt, leaf, shield, star, checkmark, heart]\", \"benefit_2_icon\": \"[INSERT ICON]\", \"benefit_3_icon\": \"[INSERT ICON]\", \"background_hex\": \"[INSERT BACKGROUND HEX — brand colour, e.g. #6BBBAE]\"}, \"layout_structure\": {\"canvas\": {\"width\": 2000, \"height\": 2000, \"background_color\": \"{user_inputs.background_hex}\"}, \"sections\": [{\"id\": \"search_bar_zone\", \"type\": \"container\", \"area\": {\"top\": \"6%\", \"height\": \"20%\", \"left\": \"5%\", \"right\": \"5%\"}, \"elements\": [{\"id\": \"search_bar\", \"type\": \"container\", \"fill\": \"#FFFFFF\", \"border_radius\": \"50px\", \"width\": \"90%\", \"position\": {\"x\": \"50%\", \"y\": \"30%\"}, \"anchor\": \"top_center\", \"elements\": [{\"id\": \"search_icon\", \"type\": \"shape\", \"shape\": \"magnifying_glass\", \"color\": \"#2D2D2D\"}, {\"id\": \"search_text\", \"type\": \"text\", \"content\": \"{user_inputs.search_query_text}\", \"font_family\": \"Graphik Regular, sans-serif\", \"font_size\": \"medium\", \"font_weight\": \"400\", \"color\": \"#2D2D2D\"}]}, {\"id\": \"tagline\", \"type\": \"text\", \"content\": \"{user_inputs.brand_tagline}\", \"font_family\": \"Graphik Regular Italic\", \"font_size\": \"small\", \"font_weight\": \"400\", \"color\": \"#FFFFFF\", \"alignment\": \"center\"}]}, {\"id\": \"content_zone\", \"type\": \"container\", \"area\": {\"top\": \"26%\", \"height\": \"60%\", \"left\": \"0%\", \"right\": \"0%\"}, \"elements\": [{\"id\": \"benefit_1_icon\", \"type\": \"shape\", \"shape\": \"{user_inputs.benefit_1_icon}\", \"color\": \"#FFFFFF\", \"position\": {\"x\": \"8%\", \"y\": \"12%\"}}, {\"id\": \"benefit_1_text\", \"type\": \"text\", \"content\": \"{user_inputs.benefit_1_label}\", \"font_family\": \"Graphik Regular\", \"font_size\": \"large\", \"font_weight\": \"400\", \"color\": \"#FFFFFF\", \"position\": {\"x\": \"20%\", \"y\": \"12%\"}}, {\"id\": \"benefit_2_icon\", \"type\": \"shape\", \"shape\": \"{user_inputs.benefit_2_icon}\", \"color\": \"#FFFFFF\", \"position\": {\"x\": \"8%\", \"y\": \"42%\"}}, {\"id\": \"benefit_2_text\", \"type\": \"text\", \"content\": \"{user_inputs.benefit_2_label}\", \"font_family\": \"Graphik Regular\", \"font_size\": \"large\", \"font_weight\": \"400\", \"color\": \"#FFFFFF\", \"position\": {\"x\": \"20%\", \"y\": \"42%\"}}, {\"id\": \"benefit_3_icon\", \"type\": \"shape\", \"shape\": \"{user_inputs.benefit_3_icon}\", \"color\": \"#FFFFFF\", \"position\": {\"x\": \"8%\", \"y\": \"72%\"}}, {\"id\": \"benefit_3_text\", \"type\": \"text\", \"content\": \"{user_inputs.benefit_3_label}\", \"font_family\": \"Graphik Regular\", \"font_size\": \"large\", \"font_weight\": \"400\", \"color\": \"#FFFFFF\", \"position\": {\"x\": \"20%\", \"y\": \"72%\"}}, {\"id\": \"product_hand\", \"type\": \"image_container\", \"source\": \"{user_inputs.product_image}\", \"position\": {\"x\": \"72%\", \"y\": \"50%\"}, \"width\": \"50%\", \"anchor\": \"center\", \"rendering\": {\"style\": \"photorealistic hand cradling product from below — reproduce product label and branding exactly as in uploaded image\", \"lighting\": \"soft natural light from above-left\", \"shadow\": \"subtle shadow beneath hand\"}}]}, {\"id\": \"footer_zone\", \"type\": \"container\", \"area\": {\"top\": \"86%\", \"height\": \"10%\", \"left\": \"5%\", \"right\": \"5%\"}, \"elements\": [{\"id\": \"logo\", \"type\": \"image_container\", \"source\": \"{user_inputs.logo_image}\", \"position\": {\"x\": \"0%\", \"y\": \"50%\"}, \"width\": \"260px\", \"anchor\": \"center_left\", \"rendering\": {\"style\": \"render logo pixels as white — do not recolour, logo file is already white-on-transparent\"}}]}]}, \"generative_image_prompt\": \"A 2000x2000px square Meta ad creative. Background: solid {user_inputs.background_hex} filling the entire canvas. TOP ZONE (top 26%): A white pill-shaped search bar (white #FFFFFF, rounded corners ~50px radius) spans ~85% of canvas width, centred horizontally, ~8% from top. Inside: small dark magnifying glass icon + '{user_inputs.search_query_text}' in Graphik Regular, regular weight, dark charcoal #2D2D2D, medium size. Below the search bar, centred, small italic Graphik Regular Italic text: '{user_inputs.brand_tagline}' in white #FFFFFF. MIDDLE-LEFT (30-85% height, left 45%): Three evenly-spaced benefit rows — each a small white icon left + Graphik Regular white #FFFFFF large text right. Row 1: {user_inputs.benefit_1_icon} icon + '{user_inputs.benefit_1_label}'. Row 2: {user_inputs.benefit_2_icon} icon + '{user_inputs.benefit_2_label}'. Row 3: {user_inputs.benefit_3_icon} icon + '{user_inputs.benefit_3_label}'. All icons and all benefit text are solid white #FFFFFF. MIDDLE-RIGHT (30-90% height, right 55%): Photorealistic hand cradling {user_inputs.product_name} from below, held upright. Reproduce the product label and branding exactly as shown in the uploaded product image. Tube body is bright crisp white — not grey. Soft natural lighting from above-left. Subtle shadow beneath hand. BOTTOM (bottom 10%): Second image (logo) placed left-aligned, ~260px wide. Logo is white-on-transparent — render as solid white wordmark against the background. Overall: clean, minimal, natural. Output: 2000x2000px, 1:1, RGB, photorealistic.\"}",
+      "category": "infographic",
+      "product_types": [
+        "health-beauty"
+      ],
+      "tags": [
+        "pastel-bg",
+        "hands",
+        "benefit-list",
+        "minimal-text",
+        "natural",
+        "pattern-interrupt",
+        "logo-featured",
+        "search-bar-parody"
+      ],
+      "mood": [
+        "clean",
+        "natural",
+        "trustworthy"
+      ],
+      "use_cases": [
+        "conversion",
+        "brand-awareness"
+      ],
+      "layout": "split",
+      "text_density": "medium",
+      "preview_images": [
+        "previews/keetrax-20260622-00001/ref_01_altiva.png",
+        "previews/keetrax-20260622-00001/gen_01_pure-peony-test.png"
+      ],
+      "reverse_engineered_from": "Altiva supplement Instagram ad, June 2026",
+      "added_at": "2026-06-22"
     }
   ]
 }
