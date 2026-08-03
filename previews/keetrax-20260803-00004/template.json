@@ -1,0 +1,221 @@
+{
+  "template_meta": {
+    "name": "InScene_Wordmark_Spec_Pill_Hero",
+    "version": "2.0",
+    "base_resolution": "1080x1350px",
+    "aspect_ratio": "4:5",
+    "description": "A single bright, airy lifestyle photograph doubles as both backdrop and stage: a small logo badge sits top-left, a huge bold wordmark and a row of solid-fill spec-pill badges (with one differentiated 'urgency' pill in a deeper accent) float over a soft brand-tinted gradient, while the product itself rests naturally in-scene on the same surface at the bottom — not a cutout, but physically placed in the photographed environment."
+  },
+  "user_inputs": {
+    "brand_name": "[INSERT BRAND NAME]",
+    "logo_image": "[UPLOAD LOGO IMAGE]",
+    "wordmark_text": "[INSERT PRODUCT/BRAND WORDMARK, e.g. ELYTE]",
+    "wordmark_font": "[INSERT HEADLINE FONT, e.g. League Spartan]",
+    "body_font": "[INSERT BODY FONT, e.g. Poppins]",
+    "primary_accent_hex": "[INSERT PRIMARY BRAND ACCENT HEX]",
+    "urgency_accent_hex": "[INSERT SECONDARY/DEEPER ACCENT HEX FOR THE URGENCY PILL]",
+    "gradient_tint_hex": "[INSERT LIGHT BRAND TINT HEX FOR THE OVERLAY GRADIENT]",
+    "subheadline_text": "[INSERT ONE-LINE BENEFIT STATEMENT]",
+    "spec_pill_1_text": "[INSERT SPEC/BENEFIT 1, e.g. 5g Creatine]",
+    "spec_pill_2_text": "[INSERT SPEC/BENEFIT 2]",
+    "spec_pill_3_text": "[INSERT SPEC/BENEFIT 3]",
+    "urgency_pill_text": "[INSERT URGENCY CALLOUT, e.g. 82% Off]",
+    "lifestyle_scene_description": "[INSERT SCENE, e.g. a woman applying cream to her cheek in front of a bright bathroom mirror]",
+    "surface_description": "[INSERT SURFACE THE PRODUCT RESTS ON, e.g. white marble vanity countertop]",
+    "wordmark_color_hex": "#FFFFFF",
+    "product_image": "[UPLOAD PRODUCT IMAGE]"
+  },
+  "layout_structure": {
+    "canvas": { "width": 1080, "height": 1350, "background_color": "#FFFFFF" },
+    "sections": [
+      {
+        "id": "background_scene",
+        "type": "container",
+        "area": { "top": "0%", "height": "100%", "left": "0%", "right": "0%" },
+        "elements": [
+          {
+            "id": "lifestyle_photo",
+            "type": "image_container",
+            "source": "generated:{user_inputs.lifestyle_scene_description}, continuing down into {user_inputs.surface_description}",
+            "position": { "x": "50%", "y": "0%" },
+            "width": "100%",
+            "height": "100%",
+            "anchor": "top_center",
+            "rendering": {
+              "style": "photorealistic, bright airy commercial lifestyle photography, soft focus on the upper scene",
+              "lighting": "bright natural daylight, upbeat and energetic, not moody or dim"
+            }
+          },
+          {
+            "id": "gradient_overlay",
+            "type": "shape",
+            "shape_type": "rectangle",
+            "position": { "x": "50%", "y": "0%" },
+            "width": "100%",
+            "height": "66%",
+            "anchor": "top_center",
+            "fill_gradient": {
+              "type": "linear",
+              "direction": "top_to_bottom",
+              "color_start": "{user_inputs.gradient_tint_hex}",
+              "color_end": "transparent"
+            }
+          }
+        ]
+      },
+      {
+        "id": "logo_badge",
+        "type": "container",
+        "area": { "top": "3%", "height": "6%", "left": "5%", "right": "65%" },
+        "fill": "#FFFFFF",
+        "border_radius": "999px",
+        "elements": [
+          {
+            "id": "logo",
+            "type": "image_container",
+            "source": "{user_inputs.logo_image}",
+            "position": { "x": "50%", "y": "50%" },
+            "width": "80%",
+            "anchor": "center",
+            "rendering": { "background": "transparent", "style": "extract wordmark as-is, like a small brand sticker on the photo" }
+          }
+        ]
+      },
+      {
+        "id": "wordmark_block",
+        "type": "container",
+        "area": { "top": "34%", "height": "13%", "left": "6%", "right": "6%" },
+        "fill": "transparent",
+        "elements": [
+          {
+            "id": "wordmark",
+            "type": "text",
+            "position": { "x": "0%", "y": "50%" },
+            "width": "80%",
+            "content": "{user_inputs.wordmark_text}",
+            "font_family": "{user_inputs.wordmark_font}",
+            "font_size": "xx-large",
+            "font_weight": "900",
+            "color": "{user_inputs.wordmark_color_hex}",
+            "alignment": "left",
+            "anchor": "left_center"
+          },
+          {
+            "id": "wordmark_accent_glyph",
+            "type": "shape",
+            "shape_type": "plus_sign",
+            "position": { "x": "84%", "y": "50%" },
+            "width": "12%",
+            "color": "{user_inputs.primary_accent_hex}",
+            "anchor": "center",
+            "border_radius": "8px"
+          }
+        ]
+      },
+      {
+        "id": "subheadline_block",
+        "type": "container",
+        "area": { "top": "48%", "height": "6%", "left": "6%", "right": "6%" },
+        "fill": "transparent",
+        "elements": [
+          {
+            "id": "subheadline",
+            "type": "text",
+            "position": { "x": "0%", "y": "50%" },
+            "width": "92%",
+            "content": "{user_inputs.subheadline_text}",
+            "font_family": "{user_inputs.body_font}",
+            "font_size": "large",
+            "font_weight": "600",
+            "color": "{user_inputs.wordmark_color_hex}",
+            "alignment": "left",
+            "anchor": "left_center"
+          }
+        ]
+      },
+      {
+        "id": "spec_pill_row",
+        "type": "icon_text_row",
+        "area": { "top": "56%", "height": "5%", "left": "6%", "right": "6%" },
+        "fill": "transparent",
+        "layout": "horizontal, evenly spaced, wraps to a second row if needed",
+        "elements": [
+          {
+            "id": "spec_pill_1",
+            "type": "inline_pill",
+            "content": "{user_inputs.spec_pill_1_text}",
+            "fill": "{user_inputs.primary_accent_hex}",
+            "border_radius": "999px",
+            "text_color": "{user_inputs.wordmark_color_hex}",
+            "font_family": "{user_inputs.body_font}",
+            "font_weight": "600",
+            "font_size": "x-small",
+            "padding": "10px 18px"
+          },
+          {
+            "id": "spec_pill_2",
+            "type": "inline_pill",
+            "content": "{user_inputs.spec_pill_2_text}",
+            "fill": "{user_inputs.primary_accent_hex}",
+            "border_radius": "999px",
+            "text_color": "{user_inputs.wordmark_color_hex}",
+            "font_family": "{user_inputs.body_font}",
+            "font_weight": "600",
+            "font_size": "x-small",
+            "padding": "10px 18px"
+          },
+          {
+            "id": "spec_pill_3",
+            "type": "inline_pill",
+            "content": "{user_inputs.spec_pill_3_text}",
+            "fill": "{user_inputs.primary_accent_hex}",
+            "border_radius": "999px",
+            "text_color": "{user_inputs.wordmark_color_hex}",
+            "font_family": "{user_inputs.body_font}",
+            "font_weight": "600",
+            "font_size": "x-small",
+            "padding": "10px 18px"
+          },
+          {
+            "id": "urgency_pill",
+            "type": "inline_pill",
+            "content": "{user_inputs.urgency_pill_text}",
+            "fill": "{user_inputs.urgency_accent_hex}",
+            "border_radius": "999px",
+            "text_color": "{user_inputs.wordmark_color_hex}",
+            "font_family": "{user_inputs.body_font}",
+            "font_weight": "600",
+            "font_size": "x-small",
+            "padding": "10px 18px",
+            "note": "visually distinct from the other three pills — deeper/more saturated accent to draw the eye as the urgency callout"
+          }
+        ]
+      },
+      {
+        "id": "product_stage",
+        "type": "container",
+        "area": { "top": "63%", "height": "37%", "left": "0%", "right": "0%" },
+        "fill": "transparent",
+        "overflow": "visible",
+        "elements": [
+          {
+            "id": "product_hero",
+            "type": "image_container",
+            "source": "{user_inputs.product_image}",
+            "position": { "x": "55%", "y": "30%" },
+            "width": "55%",
+            "anchor": "center",
+            "rotation": "-18deg",
+            "overflow_direction": "downward",
+            "rendering": {
+              "style": "photorealistic, physically resting on the same photographed surface as the background scene — not a floating cutout, real contact and perspective with the surface",
+              "lighting": "matches the ambient bright daylight of the scene, slightly brighter than the background since it catches the light",
+              "shadow": "soft cast shadow on the surface beneath and behind the product, direction consistent with the scene's light source"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "generative_image_prompt": "A 1080x1350px (4:5) vertical ad built from a single continuous photorealistic lifestyle photograph. The scene: {user_inputs.lifestyle_scene_description}, continuing downward into {user_inputs.surface_description} which fills the bottom of the frame, shot in bright airy natural daylight — upbeat and energetic, not moody or dim. In the top-left corner, a small white rounded pill badge sits inset from the edge, containing the {user_inputs.brand_name} wordmark logo (from the supplied logo reference) on a white background — like a small brand sticker on the photo. Over the top roughly 66% of the canvas, a soft gradient overlay sits on top of the photo, transitioning from {user_inputs.gradient_tint_hex} at the very top to fully transparent by about 66% down, so the surface and product below read clearly in bright natural light. Starting at about 34% down the canvas, left-aligned with a small margin, a huge, extra-bold wordmark set in {user_inputs.wordmark_font} reads '{user_inputs.wordmark_text}' in {user_inputs.wordmark_color_hex}, immediately followed by a bold plus-sign glyph in flat solid {user_inputs.primary_accent_hex}. Directly below at about 48% down, a medium-weight one-line subheadline set in {user_inputs.body_font} in {user_inputs.wordmark_color_hex} reads '{user_inputs.subheadline_text}'. Below that at about 56% down, a horizontal row of four solid-fill pill-shaped badges, text set in {user_inputs.body_font} Semibold in {user_inputs.wordmark_color_hex}, centered in each: three pills — '{user_inputs.spec_pill_1_text}', '{user_inputs.spec_pill_2_text}', '{user_inputs.spec_pill_3_text}' — filled with flat solid {user_inputs.primary_accent_hex}; the fourth pill, '{user_inputs.urgency_pill_text}', is the urgency callout and stands out with a deeper, more saturated flat solid fill of {user_inputs.urgency_accent_hex}. In the bottom ~35% of the canvas, the actual product (from the supplied reference image) rests physically on the photographed surface, tilted diagonally, one single product only, lit to match the scene's bright daylight with a soft cast shadow — genuinely part of the photograph, not a pasted cutout, with correct geometry (no warping or floating). CRITICAL: reproduce any printed label text on the product EXACTLY character-for-character as it appears in the reference image — do not alter, misspell, or paraphrase any word on the packaging; proofread the rendered label before finalizing. Output: 1080x1350px, 4:5 aspect ratio, RGB, photorealistic commercial ad photography, bright and upbeat mood, brand palette on text/UI elements restricted to {user_inputs.primary_accent_hex}, {user_inputs.gradient_tint_hex}, {user_inputs.urgency_accent_hex}, and {user_inputs.wordmark_color_hex}."
+}
