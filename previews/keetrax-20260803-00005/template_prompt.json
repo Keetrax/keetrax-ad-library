@@ -1,0 +1,146 @@
+{
+  "template_meta": {
+    "name": "Farewell_Clearance_Letter",
+    "version": "1.1",
+    "base_resolution": "1080x1350px",
+    "aspect_ratio": "4:5",
+    "description": "A stark all-white, plain-text 'breakup letter' ad that personifies a clearance, urgency, or transformation moment as a farewell message, anchored by an oversized emoji pairing and a bottom logo band composited in post-production."
+  },
+  "user_inputs": {
+    "brand_name": "[INSERT BRAND NAME]",
+    "logo_image": "[UPLOAD LOGO IMAGE — leave the bottom band blank in generation and composite this on top afterward, do not let the model redraw the logo]",
+    "emoji_primary": "[INSERT PRIMARY EMOJI]",
+    "emoji_secondary": "[INSERT SECONDARY EMOJI]",
+    "headline_line_1": "[INSERT HEADLINE LINE 1, e.g. Goodbye,]",
+    "headline_line_2": "[INSERT HEADLINE LINE 2, e.g. {brand_name} products]",
+    "body_paragraph_1": "[INSERT PARAGRAPH 1 — set-up / reason for the moment]",
+    "bold_phrase_1": "[INSERT PHRASE TO BOLD WITHIN PARAGRAPH 1]",
+    "body_paragraph_2": "[INSERT PARAGRAPH 2 — stakes / why it matters now]",
+    "bold_phrase_2": "[INSERT PHRASE TO BOLD WITHIN PARAGRAPH 2]",
+    "body_paragraph_3": "[INSERT PARAGRAPH 3 — short closing line]",
+    "text_color_hex": "#1A1A1A",
+    "background_color_hex": "#FFFFFF",
+    "headline_font_family": "[INSERT BRAND HEADLINE FONT, e.g. Playfair Display Black — falls back to a bold monospace/typewriter font if the brand has no serif]",
+    "body_font_family": "[INSERT BRAND BODY FONT, e.g. Graphik Regular]",
+    "bold_font_family": "[INSERT BRAND SEMIBOLD/BOLD FONT, e.g. Graphik Semibold]"
+  },
+  "layout_structure": {
+    "canvas": { "width": 1080, "height": 1350, "background_color": "{user_inputs.background_color_hex}" },
+    "sections": [
+      {
+        "id": "emoji_header",
+        "type": "container",
+        "area": { "top": "6%", "height": "16%", "left": "0%", "right": "0%" },
+        "fill": "transparent",
+        "elements": [
+          {
+            "id": "emoji_pair",
+            "type": "text",
+            "content": "{user_inputs.emoji_primary} {user_inputs.emoji_secondary}",
+            "position": { "x": "50%", "y": "50%" },
+            "width": "60%",
+            "anchor": "center",
+            "font_size": "xx-large",
+            "alignment": "center",
+            "rendering": { "style": "native emoji glyphs, rendered large (~90px each), no background shape" }
+          }
+        ]
+      },
+      {
+        "id": "headline",
+        "type": "container",
+        "area": { "top": "30%", "height": "12%", "left": "8%", "right": "8%" },
+        "fill": "transparent",
+        "elements": [
+          {
+            "id": "headline_text",
+            "type": "text_block",
+            "content": "{user_inputs.headline_line_1}\n{user_inputs.headline_line_2}",
+            "position": { "x": "50%", "y": "50%" },
+            "width": "100%",
+            "anchor": "center",
+            "font_family": "{user_inputs.headline_font_family}",
+            "font_size": "x-large",
+            "font_weight": "700",
+            "color": "{user_inputs.text_color_hex}",
+            "line_height": "1.2",
+            "alignment": "center"
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "type": "container",
+        "area": { "top": "45%", "height": "42%", "left": "9%", "right": "9%" },
+        "fill": "transparent",
+        "elements": [
+          {
+            "id": "paragraph_1",
+            "type": "text_block",
+            "content": "{user_inputs.body_paragraph_1}",
+            "bold_span": "{user_inputs.bold_phrase_1}",
+            "position": { "x": "50%", "y": "10%" },
+            "width": "100%",
+            "anchor": "top_center",
+            "font_family": "{user_inputs.body_font_family}",
+            "bold_font_family": "{user_inputs.bold_font_family}",
+            "font_size": "medium",
+            "font_weight": "400",
+            "color": "{user_inputs.text_color_hex}",
+            "line_height": "1.5",
+            "alignment": "center"
+          },
+          {
+            "id": "paragraph_2",
+            "type": "text_block",
+            "content": "{user_inputs.body_paragraph_2}",
+            "bold_span": "{user_inputs.bold_phrase_2}",
+            "position": { "x": "50%", "y": "45%" },
+            "width": "100%",
+            "anchor": "top_center",
+            "font_family": "{user_inputs.body_font_family}",
+            "bold_font_family": "{user_inputs.bold_font_family}",
+            "font_size": "medium",
+            "font_weight": "400",
+            "color": "{user_inputs.text_color_hex}",
+            "line_height": "1.5",
+            "alignment": "center"
+          },
+          {
+            "id": "paragraph_3",
+            "type": "text_block",
+            "content": "{user_inputs.body_paragraph_3}",
+            "position": { "x": "50%", "y": "80%" },
+            "width": "100%",
+            "anchor": "top_center",
+            "font_family": "{user_inputs.body_font_family}",
+            "font_size": "medium",
+            "font_weight": "400",
+            "color": "{user_inputs.text_color_hex}",
+            "line_height": "1.5",
+            "alignment": "center"
+          }
+        ]
+      },
+      {
+        "id": "bottom_bar",
+        "type": "container",
+        "area": { "top": "86%", "height": "14%", "left": "0%", "right": "0%" },
+        "fill": "{user_inputs.background_color_hex}",
+        "elements": [
+          {
+            "id": "logo_slot",
+            "type": "image_container",
+            "source": "{user_inputs.logo_image}",
+            "position": { "x": "50%", "y": "50%" },
+            "width": "30%",
+            "anchor": "center",
+            "rendering": { "style": "leave this band blank during generation; composite the real logo asset on top afterward for pixel accuracy" }
+          }
+        ]
+      }
+    ]
+  },
+  "generative_image_prompt": "A 1080x1350px (4:5) all-white advertisement styled as a plain-text 'farewell letter', laid out top to bottom on a pure {user_inputs.background_color_hex} background with generous whitespace and no product photography, no borders, no drop shadows. TOP (starting ~6% down): two large native emoji glyphs side by side, centered — {user_inputs.emoji_primary} and {user_inputs.emoji_secondary} — rendered at roughly 90px each, plain, no background shape behind them. BELOW that (~30% down), a two-line centered headline in {user_inputs.headline_font_family}, color {user_inputs.text_color_hex}, reading: '{user_inputs.headline_line_1}' on the first line and '{user_inputs.headline_line_2}' on the second line, generous line-height. BELOW the headline (~45%-87% down), three short centered paragraphs of body copy in {user_inputs.body_font_family} at regular weight, color {user_inputs.text_color_hex}, comfortable line-height (~1.5), each paragraph separated by a full blank line: paragraph one is '{user_inputs.body_paragraph_1}' with the phrase '{user_inputs.bold_phrase_1}' rendered in {user_inputs.bold_font_family} inline; paragraph two is '{user_inputs.body_paragraph_2}' with the phrase '{user_inputs.bold_phrase_2}' rendered in {user_inputs.bold_font_family} inline; paragraph three is a short closing line, '{user_inputs.body_paragraph_3}'. All body text wraps naturally within a centered column roughly 82% of the canvas width. Render every word of the body copy exactly once verbatim — do not insert, duplicate, or repeat any extra words anywhere, especially immediately before or after bolded phrases. Proofread the rendered text carefully before finalizing. BOTTOM (final 14% of canvas height): leave this band completely blank, plain {user_inputs.background_color_hex}, with no text, no shapes, and no gradient — the brand's real logo file is composited on top afterward in post-production rather than rendered by the model, for pixel accuracy. The overall mood is minimal, text-first, and pattern-interrupt in style — deliberately looking like a plain note or letter rather than a polished commercial ad, with no imagery beyond the two emoji and the typography itself. Output: 1080x1350px, 4:5 aspect ratio, RGB, flat digital illustration/typography style, no photographic elements.",
+  "generation_notes": "Approved variant swaps the original source ad's monospace typewriter font + gradient wordmark bar for the client's actual brand fonts and a post-composited real logo file (see reverse_engineered_from client example: Pure Peony, Aug 2026). Prefer this approach over letting the model render logo/wordmark text directly."
+}
