@@ -6100,6 +6100,43 @@
                 "previews/keetrax-20260803-00007/gen_01.png"
             ],
             "added_at": "2026-08-03"
+        },
+        {
+            "id": "keetrax-20260803-00008",
+            "source": "keetrax",
+            "name": "Product Hand-Hold — Solid Colour Background",
+            "description": "Hyperrealistic studio product shot with a single hand gripping the bottle's carry handle at the top, set against a solid flat-colour background. No props, no text overlays — pure product photography. Developed for Wet & Forget Shower Witch on #24A9E2 blue. Adapts to any jerry-can or handled cleaning bottle. Key prompt details: specify bottle as taller than wide, describe label text precisely including badge wording exactly, specify WET&FORGET logotype colour (red/orange). Approved by Phoebe Restieaux, August 2026.",
+            "prompt": "Hyperrealistic professional studio product photograph. 1080x1080px, 1:1 square aspect ratio.\n\nBACKGROUND: Solid flat colour [INSERT HEX, e.g. #24A9E2]. No gradients, no texture, no props, no shadows on the background.\n\nPRODUCT: [DESCRIBE BOTTLE — shape, colour, handle position, nozzle type. Specify proportions: taller than wide.]\n\nLABEL: Reproduce EXACTLY from reference — specify every text element, badge wording (letter-perfect), logotype colours.\n\nHAND: Single human hand (natural skin tone, clean, no nail polish) grips the carry handle at the top of the bottle. Grip is natural — fingers wrapped around the handle from above. Wrist and forearm extend out of frame from the upper corner.\n\nCOMPOSITION: Bottle centred in frame. Hand and handle at top. Bottle base ~15% above bottom edge.\n\nLIGHTING: Professional studio softbox — key light front-left, subtle fill from right. Clean commercial product photography. Crisp specular highlights. Subtle water droplets on bottle surface.\n\nOUTPUT: Photorealistic, commercial quality. No text overlays, no graphic elements.",
+            "category": "product-photo",
+            "product_types": [
+                "health-beauty",
+                "home-electronics"
+            ],
+            "tags": [
+                "hands",
+                "solid-bg",
+                "studio-lighting",
+                "minimal-text",
+                "centered",
+                "cleaning-product",
+                "product-photo"
+            ],
+            "mood": [
+                "clean",
+                "trustworthy",
+                "natural"
+            ],
+            "use_cases": [
+                "product-launch",
+                "brand-awareness",
+                "conversion"
+            ],
+            "layout": "centered",
+            "text_density": "none",
+            "preview_images": [
+                "previews/keetrax-20260803-00008/gen_01.png"
+            ],
+            "added_at": "2026-08-03"
         }
     ]
 }
