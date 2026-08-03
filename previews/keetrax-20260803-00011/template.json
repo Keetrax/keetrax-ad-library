@@ -1,0 +1,191 @@
+{
+  "template_meta": {
+    "name": "Forest_Parting_Brand_Medallion",
+    "version": "2.0",
+    "base_resolution": "1080x1350px",
+    "aspect_ratio": "4:5",
+    "description": "Native trees physically part to form an organic, photographic bottle-shaped clearing (never a drawn or glowing silhouette) revealing a misty landscape and stream behind; a brand medallion matched to the client's real label design floats inside the gap."
+  },
+  "user_inputs": {
+    "brand_name": "[INSERT BRAND / DISTILLERY NAME]",
+    "brand_label_reference_image": "[UPLOAD A PHOTO OF THE CLIENT'S REAL BOTTLE OR PRODUCT LABEL — required. Used as a second reference image so the model matches its exact colours, typography and ornament instead of inventing a new mark]",
+    "product_category_text": "[INSERT PRODUCT CATEGORY — e.g. VODKA, GIN, WHISKEY]",
+    "tagline_caption": "[INSERT SHORT TAGLINE — 2-4 word brand philosophy]",
+    "specs_band_text": "[INSERT SPEC BAND CONTENT — e.g. batch/region/ABV/volume, matching the real label's spec band]",
+    "bottom_tagline": "[INSERT BOTTOM TAGLINE — short essence/origin line]",
+    "primary_color_hex": "[INSERT PRIMARY LABEL COLOR HEX — sampled from the real label]",
+    "accent_color_hex": "[INSERT ACCENT LABEL COLOR HEX — sampled from the real label]",
+    "forest_type": "[INSERT FOREST/LANDSCAPE TYPE — e.g. native bush, pine forest, birch forest]"
+  },
+  "layout_structure": {
+    "canvas": { "width": 1080, "height": 1350, "background_color": "#0E1F14" },
+    "sections": [
+      {
+        "id": "forest_backdrop",
+        "type": "container",
+        "area": { "top": "0%", "height": "100%", "left": "0%", "right": "0%" },
+        "fill": "photographic",
+        "elements": [
+          {
+            "id": "parting_trees",
+            "type": "image_container",
+            "position": { "x": "50%", "y": "50%" },
+            "width": "100%",
+            "anchor": "center",
+            "rendering": {
+              "style": "photorealistic, dense {user_inputs.forest_type}, dappled natural light, atmospheric depth, single continuous photograph — not a graphic or composite",
+              "lighting": "soft overcast daylight filtering through canopy",
+              "detail": "trunks, ferns, hanging vines and canopy on both sides physically lean and curve away from the centre, interlacing overhead into a natural arch, as if a clearing has simply always existed in this grove; the gap they form must read as ordinary open air and daylight between real irregular trees, never as a crisp, drawn, or glowing outline"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organic_clearing_gap",
+        "type": "cutout",
+        "shape": "irregular, organic bottle-like clearing formed by real parted trees, symmetric only approximately about the vertical centre line — edges must look like tree trunks and foliage, not a geometric silhouette",
+        "shape_points": [
+          { "y": "6%",  "left_x": "49%", "right_x": "51%" },
+          { "y": "16%", "left_x": "38%", "right_x": "62%" },
+          { "y": "20%", "left_x": "41%", "right_x": "59%" },
+          { "y": "68%", "left_x": "41%", "right_x": "59%" },
+          { "y": "84%", "left_x": "36%", "right_x": "64%" },
+          { "y": "88%", "left_x": "40%", "right_x": "60%" }
+        ],
+        "fill": "nested photographic vignette, same light and colour grade as the surrounding forest, visible only through the gap",
+        "elements": [
+          {
+            "id": "gap_glow_top",
+            "type": "image_container",
+            "position": { "x": "50%", "y": "12%" },
+            "height_within_window": "6%-30%",
+            "rendering": { "style": "bright hazy daylight, sun visible low through the distant canopy of the clearing — natural light, not a stylised glow or glass effect" }
+          },
+          {
+            "id": "gap_landscape",
+            "type": "image_container",
+            "position": { "x": "50%", "y": "50%" },
+            "height_within_window": "30%-84%",
+            "rendering": {
+              "style": "photorealistic misty {user_inputs.forest_type} valley receding into a still reflective lake, then a shallow stream running over moss-covered rocks",
+              "detail": "landscape is simply seen through the gap between trees; depth increases toward the bottom"
+            }
+          },
+          {
+            "id": "stream_overflow",
+            "type": "image_container",
+            "position": { "x": "50%", "y": "90%" },
+            "width": "34%",
+            "anchor": "top_center",
+            "overflow_direction": "downward",
+            "rendering": { "style": "the stream from gap_landscape flows out from the base of the clearing, between foreground tree roots, into the real (non-gap) foreground rocks and undergrowth at the bottom of the canvas" }
+          }
+        ]
+      },
+      {
+        "id": "brand_medallion_block",
+        "type": "container",
+        "area": { "top": "38%", "height": "42%", "left": "20%", "right": "20%" },
+        "note": "floats centred inside organic_clearing_gap; reproduces the exact colours, ornamental linework and typographic style of {user_inputs.brand_label_reference_image} as an engraved badge/medallion — never printed on a rendered bottle",
+        "elements": [
+          {
+            "id": "medallion_emblem",
+            "type": "shape",
+            "shape": "circular badge outlined in {user_inputs.primary_color_hex}, with the same fine hand-etched border pattern as the reference label",
+            "position": { "x": "50%", "y": "45%" },
+            "width": "62%",
+            "anchor": "center"
+          },
+          {
+            "id": "brand_wordmark_arch",
+            "type": "text",
+            "position": { "x": "50%", "y": "30%" },
+            "content": "{user_inputs.brand_name}",
+            "font_family": "matches reference label arch typography, thin tracked-out caps",
+            "font_size": "small",
+            "color": "{user_inputs.primary_color_hex}",
+            "letter_spacing": "0.12em",
+            "alignment": "center",
+            "path": "arched, following the top inner curve of medallion_emblem"
+          },
+          {
+            "id": "tagline_caption",
+            "type": "text",
+            "position": { "x": "50%", "y": "38%" },
+            "content": "{user_inputs.tagline_caption}",
+            "font_size": "x-small",
+            "font_weight": "600",
+            "color": "{user_inputs.accent_color_hex}",
+            "letter_spacing": "0.1em",
+            "alignment": "center"
+          },
+          {
+            "id": "product_category",
+            "type": "text",
+            "position": { "x": "50%", "y": "45%" },
+            "content": "{user_inputs.product_category_text}",
+            "font_family": "matches reference label's bold slab-serif",
+            "font_size": "x-large",
+            "font_weight": "800",
+            "color": "{user_inputs.accent_color_hex}",
+            "alignment": "center",
+            "note": "sits inside a ribbon banner, matching reference label's ribbon style"
+          },
+          {
+            "id": "origin_ribbon",
+            "type": "text",
+            "position": { "x": "50%", "y": "52%" },
+            "content": "matches reference label's secondary ribbon text (e.g. country/region of origin)",
+            "font_size": "small",
+            "color": "{user_inputs.primary_color_hex}",
+            "alignment": "center"
+          },
+          {
+            "id": "specs_band",
+            "type": "text_block",
+            "position": { "x": "50%", "y": "64%" },
+            "width": "100%",
+            "content": "{user_inputs.specs_band_text}",
+            "fill": "{user_inputs.accent_color_hex}",
+            "text_color": "#F2ECDD",
+            "font_size": "x-small",
+            "font_weight": "700",
+            "alignment": "center",
+            "note": "solid horizontal band matching reference label's lower spec band tone"
+          },
+          {
+            "id": "tagline_below_band",
+            "type": "text",
+            "position": { "x": "50%", "y": "72%" },
+            "content": "{user_inputs.tagline_caption}",
+            "font_size": "x-small",
+            "font_weight": "600",
+            "color": "#F2ECDD",
+            "letter_spacing": "0.15em",
+            "alignment": "center"
+          }
+        ]
+      },
+      {
+        "id": "bottom_tagline_block",
+        "type": "container",
+        "area": { "top": "91%", "height": "6%", "left": "10%", "right": "10%" },
+        "note": "sits outside the clearing, over the foreground stream/rocks",
+        "elements": [
+          {
+            "id": "bottom_tagline",
+            "type": "text",
+            "position": { "x": "50%", "y": "50%" },
+            "content": "{user_inputs.bottom_tagline}",
+            "font_family": "Serif, italic",
+            "font_size": "small",
+            "font_weight": "400",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "generative_image_prompt": "A 1080x1350px (4:5) full-bleed photorealistic advertising photograph — not a graphic, not a rendered object, a single continuous forest photo. The entire frame is a dense {user_inputs.forest_type}. The trees themselves physically part and lean away from the centre of the frame, their trunks, ferns, hanging vines and canopy curving and interlacing irregularly — as if a bottle-shaped clearing has simply always existed in this grove — leaving an organic gap between about 6% and 88% of canvas height: narrower at the top like a neck (trunks lean close together around 16-20% height), widening through the body (trees stand further back, roughly parallel, down to about 68% height), narrowing slightly again near the base before the treeline closes around 88% height. This gap is NOT a drawn silhouette, NOT a glowing object, NOT an outlined graphic shape — it is ordinary open air and daylight visible between real, irregular, overlapping tree trunks and foliage, photographed in the same light and colour grade as the surrounding trees. Within the gap: the top (6-30% height) is bright hazy daylight; the middle (30-70% height) recedes into a misty {user_inputs.forest_type} valley; the lower part (70-84% height) reveals a still reflective lake; a shallow stream flows out from the base of the clearing into the real foreground of moss-covered rocks at the bottom of the canvas. Centred inside the clearing, from about 38% to 80% height, reproduce the exact colour palette, ornamental linework and typography of the brand's real label — shown in the SECOND reference image ({user_inputs.brand_label_reference_image}) — as a floating engraved circular medallion badge in {user_inputs.primary_color_hex} and {user_inputs.accent_color_hex}: an arched wordmark '{user_inputs.brand_name}' along the top of the medallion; small caption '{user_inputs.tagline_caption}'; '{user_inputs.product_category_text}' in the reference label's bold slab-serif inside a ribbon banner; a second ribbon with the reference label's origin text; below the medallion a solid accent-coloured band reading '{user_inputs.specs_band_text}'; below that a small tracked line repeating '{user_inputs.tagline_caption}'. Outside the clearing, near the bottom over the foreground rocks and stream, small italic white text reads '{user_inputs.bottom_tagline}'. No literal bottle, glass, or product packaging is rendered anywhere, and the clearing itself must never look like a drawn or glowing shape — only real trees parting to reveal daylight and landscape, with the medallion's design matching the client's authentic label rather than an invented one. Mood: natural, premium, serene, misty. Two reference images are attached: the FIRST shows the compositional concept only (trees parting to form a bottle-shaped clearing) — do not copy its text, logo, or colours. The SECOND shows the brand's real product label — match its colours, typography and ornament exactly for the medallion, without rendering the bottle or glass itself. Output: 1080x1350px, 4:5, RGB, photorealistic, no watermarks."
+}
