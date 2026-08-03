@@ -1,0 +1,142 @@
+{
+  "template_meta": {
+    "name": "Split_Panel_Problem_Solution_Card",
+    "version": "1.0",
+    "base_resolution": "1080x1350px",
+    "aspect_ratio": "4:5",
+    "description": "A two-panel problem/solution comparison ad on a soft pastel background — a photographic 'problem' image on the left and a floating product studio shot on the right, joined by a plus-sign divider, under bold underlined 'If you have THIS / Use THIS' headlines."
+  },
+  "user_inputs": {
+    "brand_name": "Wet & Forget",
+    "logo_image": "clients/wet-and-forget/assets/logo-wf.png",
+    "problem_label_text": "If you have THIS",
+    "solution_label_text": "Use THIS",
+    "problem_image_description": "a close-up photo of a concrete roof tile heavily covered in green moss and black mould stains, weathered and neglected, shot in natural daylight",
+    "product_name": "Wet & Forget Original",
+    "product_image": "clients/wet-and-forget/inputs/wet-5l.png",
+    "background_color_hex": "#24A9E2",
+    "headline_text_color_hex": "#FFFFFF",
+    "headline_font_path": "clients/wet-and-forget/assets/fonts/Metric-Black.ttf"
+  },
+  "layout_structure": {
+    "canvas": { "width": 1080, "height": 1350, "background_color": "{user_inputs.background_color_hex}" },
+    "sections": [
+      {
+        "id": "header_logo_card",
+        "type": "container",
+        "area": { "top": "0%", "height": "8%", "left": "0%", "right": "45%" },
+        "fill": "#FFFFFF",
+        "border_radius": "0px 0px 90px 0px",
+        "elements": [
+          {
+            "id": "logo",
+            "type": "image_container",
+            "source": "{user_inputs.logo_image}",
+            "position": { "x": "8%", "y": "50%" },
+            "width": "34%",
+            "anchor": "left_center",
+            "rendering": { "background": "transparent", "style": "extract wordmark as-is" }
+          }
+        ]
+      },
+      {
+        "id": "headline_row",
+        "type": "container",
+        "area": { "top": "18%", "height": "10%", "left": "0%", "right": "0%" },
+        "fill": "transparent",
+        "rendering_note": "Composited as real text using {user_inputs.headline_font_path} — the image model cannot embed a literal brand font, only approximate a style, so headline text is painted on top of the generated background/panels in a separate pass. See template_meta.production_note.",
+        "elements": [
+          {
+            "id": "problem_label",
+            "type": "text",
+            "position": { "x": "26%", "y": "50%" },
+            "width": "38%",
+            "content": "{user_inputs.problem_label_text}",
+            "font_family": "Metric Black",
+            "font_size": "xx-large",
+            "font_weight": "900",
+            "color": "{user_inputs.headline_text_color_hex}",
+            "alignment": "center",
+            "emphasized_word": "THIS",
+            "emphasis_style": "underline",
+            "note": "Horizontally centred above the problem_panel below it."
+          },
+          {
+            "id": "solution_label",
+            "type": "text",
+            "position": { "x": "74%", "y": "50%" },
+            "width": "38%",
+            "content": "{user_inputs.solution_label_text}",
+            "font_family": "Metric Black",
+            "font_size": "xx-large",
+            "font_weight": "900",
+            "color": "{user_inputs.headline_text_color_hex}",
+            "alignment": "center",
+            "emphasized_word": "THIS",
+            "emphasis_style": "underline",
+            "note": "Horizontally centred above the solution_panel below it."
+          }
+        ]
+      },
+      {
+        "id": "image_panels_row",
+        "type": "container",
+        "area": { "top": "29%", "height": "42%", "left": "0%", "right": "0%" },
+        "fill": "transparent",
+        "elements": [
+          {
+            "id": "problem_panel",
+            "type": "image_container",
+            "source": "generated:{user_inputs.problem_image_description}",
+            "position": { "x": "7%", "y": "0%" },
+            "width": "40%",
+            "height": "100%",
+            "anchor": "top_left",
+            "border_radius": "24px 24px 0px 0px",
+            "rendering": {
+              "style": "photorealistic macro close-up photography",
+              "lighting": "natural daylight, slightly desaturated to read as a 'problem' shot",
+              "shadow": "none"
+            }
+          },
+          {
+            "id": "divider_plus",
+            "type": "shape",
+            "shape_type": "plus_sign",
+            "position": { "x": "50%", "y": "50%" },
+            "width": "6%",
+            "color": "#FFFFFF",
+            "anchor": "center"
+          },
+          {
+            "id": "solution_panel",
+            "type": "container",
+            "position": { "x": "53%", "y": "0%" },
+            "width": "40%",
+            "height": "100%",
+            "anchor": "top_left",
+            "fill": "#FFFFFF",
+            "border_radius": "24px 24px 0px 0px",
+            "elements": [
+              {
+                "id": "product_hero",
+                "type": "image_container",
+                "source": "{user_inputs.product_image}",
+                "position": { "x": "50%", "y": "50%" },
+                "width": "70%",
+                "anchor": "center",
+                "rendering": {
+                  "style": "photorealistic studio product shot on white",
+                  "lighting": "soft diffused studio, key light top-left",
+                  "shadow": "soft contact shadow beneath product base"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "generative_image_prompt": "A 1080x1350px (4:5) vertical ad on a solid brand background ({user_inputs.background_color_hex}, flat, no gradient or tinting). Top-left corner: a white rounded card (square top-left corner, rounded bottom-right corner) covering roughly the top 8% and left 55% of the canvas, containing the {user_inputs.brand_name} wordmark logo from the supplied logo reference image, reproduced unaltered, left-aligned with small padding. Below that, starting around 29% down and spanning to about 71% down the canvas, two side-by-side panels with rounded top corners and square bottom corners: the LEFT panel is a photorealistic, slightly desaturated close-up photo of {user_inputs.problem_image_description} — filling the panel edge-to-edge. The RIGHT panel is a white card containing a photorealistic studio product shot of {user_inputs.product_name} (from the supplied product reference image), centred, with soft studio lighting and a soft contact shadow beneath it. Between the two panels, vertically centred on the row, a small bold white plus (+) sign sits on the background, overlapping both panel edges slightly. Leave the band above the panels (roughly 18%-28% down the canvas) empty/background-only — headline text is NOT generated by the image model. Output: 1080x1350px, 4:5 aspect ratio, RGB, clean commercial ad-photography style, no text.",
+  "production_note": "Two-pass hybrid build, required whenever a client mandates a specific brand typeface: (1) generate the logo card, photo panel, product panel, and plus-sign divider with generative_image_prompt via peelgen.py/Gemini — leave the headline band empty; (2) composite the real headline text on top with PIL using the brand's actual font file ({user_inputs.headline_font_path}), centred over each panel below it. Diffusion image models can only approximate a typeface from a text description (e.g. 'heavy grotesk sans-serif') — they cannot embed a literal font file, so prompt-only attempts will never exactly match a specific commercial typeface. Compositing is the only reliable fix. Learned on the Wet & Forget build, 2026-08-03 — see wiki/clients/wet-and-forget/brief.md Creative Notes."
+}
