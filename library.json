@@ -6218,42 +6218,44 @@
       "added_at": "2026-08-12"
     },
     {
-      "id": "keetrax-20260813-00001",
+      "id": "keetrax-20260818-00001",
       "source": "keetrax",
-      "name": "Handheld Product Review Collage",
-      "description": "A hand-held hero product breaks through a dense wall of tilted five-star review cards for immediate social proof and pattern interruption.",
-      "prompt": "{\"template_meta\":{\"name\":\"Handheld_Product_Review_Collage\",\"version\":\"1.0\",\"base_resolution\":\"1080x1350px\",\"aspect_ratio\":\"4:5\",\"description\":\"A central hand-held product surrounded by a dense, overlapping collage of five-star customer review cards.\"},\"user_inputs\":{\"brand_name\":\"[INSERT BRAND NAME]\",\"product_name\":\"[INSERT PRODUCT NAME]\",\"product_image\":\"[UPLOAD EXACT PRODUCT IMAGE - transparent PNG or clean packshot preferred]\",\"primary_accent_hex\":\"[INSERT BRAND ACCENT HEX]\",\"review_cards\":\"[INSERT 8 VERIFIED REVIEWER NAMES AND EXACT REVIEW TEXT]\",\"placeholder_footer\":\"[INSERT TEST LABEL OR LEAVE BLANK FOR APPROVED LIVE REVIEWS]\"},\"layout_structure\":{\"canvas\":{\"width\":1080,\"height\":1350,\"background_color\":\"#D9D9D6\"},\"sections\":[{\"id\":\"review_collage\",\"type\":\"container\",\"area\":{\"top\":\"0%\",\"height\":\"100%\",\"left\":\"0%\",\"right\":\"0%\"},\"fill\":\"#D9D9D6\",\"overflow\":\"hidden\",\"elements\":[{\"id\":\"background_review_cards\",\"type\":\"container\",\"position\":{\"x\":\"50%\",\"y\":\"48%\"},\"width\":\"110%\",\"anchor\":\"center\",\"content\":\"{user_inputs.review_cards}\",\"style\":\"Eight overlapping white rounded review cards at slight varied rotations, with soft grey shadows; each has a bold reviewer name, verified tick, five accent-colour stars and readable review text. Cards bleed beyond canvas edges and create a dense social-proof wall.\"},{\"id\":\"handheld_product\",\"type\":\"image_container\",\"source\":\"{user_inputs.product_image}\",\"position\":{\"x\":\"50%\",\"y\":\"51%\"},\"width\":\"48%\",\"anchor\":\"center\",\"overflow_direction\":\"downward\",\"rendering\":{\"style\":\"photorealistic mature hand holding the exact product upright\",\"lighting\":\"soft natural studio light\",\"shadow\":\"gentle contact shadow; hand and product sharper than background\"}},{\"id\":\"test_footer\",\"type\":\"text\",\"position\":{\"x\":\"50%\",\"y\":\"97.5%\"},\"width\":\"100%\",\"anchor\":\"center\",\"content\":\"{user_inputs.placeholder_footer}\",\"font_family\":\"Sans-serif\",\"font_size\":\"small\",\"font_weight\":\"700\",\"color\":\"#FFFFFF\",\"line_height\":\"1\",\"letter_spacing\":\"0.02em\",\"alignment\":\"center\",\"background_color\":\"{user_inputs.primary_accent_hex}\"}]}]},\"generative_image_prompt\":\"Create a 1080x1350px portrait social-proof ad for {user_inputs.brand_name}. Fill the background with a dense collage of eight overlapping white rounded customer-review cards at slight rotations, extending beyond the canvas edges. Each card uses a bold reviewer name, small verified tick, five stars in {user_inputs.primary_accent_hex}, and the exact supplied review copy from {user_inputs.review_cards}. In the centre foreground, show a realistic mature hand rising from the bottom and holding the exact supplied {user_inputs.product_name} packshot upright. Preserve its packaging, proportions, colours, branding and label structure. Keep the product unobstructed and sharp; soften rear cards slightly for depth. Use warm light grey, white, charcoal and the brand accent. Add the footer text {user_inputs.placeholder_footer} only when supplied. Trustworthy, caring, community-led mood. No before-and-after imagery, invented logos, duplicated reviews or new medical claims. Output: 1080x1350px, 4:5 portrait, RGB, photorealistic.\"}",
-      "category": "social-proof",
+      "name": "Trade Counter Chat Banter",
+      "description": "A full-bleed trade-yard lifestyle scene with staggered messaging bubbles that turn a familiar customer habit into a dry visual punchline.",
+      "prompt": "{\"template_meta\": {\"name\": \"Trade_Counter_Chat_Banter\", \"version\": \"1.0\", \"base_resolution\": \"1080x1350px\", \"aspect_ratio\": \"4:5\", \"description\": \"A full-bleed trade-site photograph overlaid with a staggered four-message conversation that turns familiar tradie behaviour into a visual punchline.\"}, \"user_inputs\": {\"brand_name\": \"[INSERT BRAND NAME]\", \"logo_image\": \"[UPLOAD OFFICIAL LOGO IMAGE]\", \"background_scene\": \"[INSERT TRADE, PRODUCT OR SERVICE SCENE]\", \"bubble_one_text\": \"[INSERT SETUP MESSAGE]\", \"bubble_two_text\": \"[INSERT REPLY]\", \"bubble_three_text\": \"[INSERT SHORT CONTRADICTION]\", \"bubble_four_text\": \"[INSERT FLAT PAYOFF]\", \"incoming_bubble_hex\": \"#F2F2F2\", \"outgoing_bubble_hex\": \"[INSERT BRAND ACCENT HEX]\", \"text_hex\": \"#000000\"}, \"layout_structure\": {\"canvas\": {\"width\": 1080, \"height\": 1350, \"background_color\": \"#D9E3EA\"}, \"sections\": [{\"id\": \"full_bleed_scene\", \"type\": \"image_container\", \"area\": {\"top\": \"0%\", \"height\": \"100%\", \"left\": \"0%\", \"right\": \"0%\"}, \"elements\": [{\"id\": \"scene\", \"type\": \"image_container\", \"source\": \"{user_inputs.background_scene}\", \"position\": {\"x\": \"50%\", \"y\": \"50%\"}, \"width\": \"100%\", \"anchor\": \"center\", \"rendering\": {\"style\": \"photorealistic candid trade-site photography\", \"lighting\": \"natural daylight\", \"shadow\": \"natural environmental shadows\"}}]}, {\"id\": \"chat_overlay\", \"type\": \"container\", \"area\": {\"top\": \"7%\", \"height\": \"48%\", \"left\": \"6%\", \"right\": \"6%\"}, \"fill\": \"transparent\", \"elements\": [{\"id\": \"message_1\", \"type\": \"text_block\", \"position\": {\"x\": \"0%\", \"y\": \"3%\"}, \"width\": \"68%\", \"anchor\": \"top_left\", \"content\": \"{user_inputs.bubble_one_text}\", \"fill\": \"{user_inputs.incoming_bubble_hex}\", \"bubble_tail\": \"bottom_left\", \"font_family\": \"geometric sans-serif\", \"font_size\": \"large\", \"font_weight\": \"500\", \"color\": \"{user_inputs.text_hex}\", \"line_height\": \"1.12\", \"letter_spacing\": \"0\", \"alignment\": \"left\"}, {\"id\": \"message_2\", \"type\": \"text_block\", \"position\": {\"x\": \"100%\", \"y\": \"30%\"}, \"width\": \"55%\", \"anchor\": \"top_right\", \"content\": \"{user_inputs.bubble_two_text}\", \"fill\": \"{user_inputs.outgoing_bubble_hex}\", \"bubble_tail\": \"bottom_right\", \"font_family\": \"geometric sans-serif\", \"font_size\": \"large\", \"font_weight\": \"500\", \"color\": \"{user_inputs.text_hex}\", \"line_height\": \"1.12\", \"letter_spacing\": \"0\", \"alignment\": \"center\"}, {\"id\": \"message_3\", \"type\": \"text_block\", \"position\": {\"x\": \"0%\", \"y\": \"57%\"}, \"width\": \"55%\", \"anchor\": \"top_left\", \"content\": \"{user_inputs.bubble_three_text}\", \"fill\": \"{user_inputs.incoming_bubble_hex}\", \"bubble_tail\": \"bottom_left\", \"font_family\": \"geometric sans-serif\", \"font_size\": \"large\", \"font_weight\": \"500\", \"color\": \"{user_inputs.text_hex}\", \"line_height\": \"1.12\", \"letter_spacing\": \"0\", \"alignment\": \"left\"}, {\"id\": \"message_4\", \"type\": \"text_block\", \"position\": {\"x\": \"100%\", \"y\": \"80%\"}, \"width\": \"51%\", \"anchor\": \"top_right\", \"content\": \"{user_inputs.bubble_four_text}\", \"fill\": \"{user_inputs.outgoing_bubble_hex}\", \"bubble_tail\": \"bottom_right\", \"font_family\": \"geometric sans-serif\", \"font_size\": \"large\", \"font_weight\": \"500\", \"color\": \"{user_inputs.text_hex}\", \"line_height\": \"1.12\", \"letter_spacing\": \"0\", \"alignment\": \"center\"}]}, {\"id\": \"brand_zone\", \"type\": \"container\", \"area\": {\"top\": \"78%\", \"height\": \"15%\", \"left\": \"9%\", \"right\": \"70%\"}, \"fill\": \"transparent\", \"elements\": [{\"id\": \"official_logo\", \"type\": \"image_container\", \"source\": \"{user_inputs.logo_image}\", \"position\": {\"x\": \"0%\", \"y\": \"100%\"}, \"width\": \"100%\", \"anchor\": \"bottom_left\", \"rendering\": {\"style\": \"place supplied logo unchanged after image generation\", \"lighting\": \"none\", \"shadow\": \"none\", \"background\": \"transparent or approved lock-up panel\"}}]}]}, \"generative_image_prompt\": \"Create a 1080x1350px 4:5 social ad using a full-bleed photorealistic {user_inputs.background_scene}. Keep the main subject in the lower half and preserve uncluttered negative space across the upper half. Overlay four large iMessage-style bubbles in a staggered left-right sequence: at upper left, {user_inputs.bubble_one_text} in a rounded {user_inputs.incoming_bubble_hex} bubble with a lower-left tail; below at right, {user_inputs.bubble_two_text} in a rounded {user_inputs.outgoing_bubble_hex} bubble with a lower-right tail; below at left, {user_inputs.bubble_three_text} in {user_inputs.incoming_bubble_hex}; below at right, {user_inputs.bubble_four_text} in {user_inputs.outgoing_bubble_hex}. Use crisp geometric sans-serif text in {user_inputs.text_hex}, regular-to-medium weight, sentence case and highly legible. Preserve the supplied wording exactly. Reserve the lower-left safe zone for later placement of {user_inputs.logo_image}; do not generate or imitate logos. Do not add captions, badges, interface chrome or watermarks. Mood: practical, direct, warm trade banter and a strong pattern interrupt. Output 1080x1350px, RGB, photorealistic background with clean vector-like chat bubbles.\"}",
+      "category": "lifestyle",
       "product_types": [
-        "health-beauty"
+        "building-supplies",
+        "home-improvement"
       ],
       "tags": [
-        "review-collage",
-        "hands",
-        "floating-product",
-        "social-proof",
         "full-bleed",
-        "verified-reviews",
-        "portrait",
-        "pattern-interrupt"
+        "lifestyle",
+        "bold-type",
+        "logo-featured",
+        "playful",
+        "pattern-interrupt",
+        "chat-bubbles",
+        "trade"
       ],
       "mood": [
-        "trustworthy",
-        "warm"
+        "warm",
+        "playful",
+        "trustworthy"
       ],
       "use_cases": [
-        "conversion",
-        "retargeting",
-        "social-proof"
+        "organic-social",
+        "awareness",
+        "engagement"
       ],
-      "layout": "centered-review-collage",
-      "text_density": "high",
+      "layout": "full-bleed-chat-overlay",
+      "text_density": "medium",
       "preview_images": [
-        "previews/keetrax-20260813-00001/ref_01.png",
-        "previews/keetrax-20260813-00001/gen_01.png"
+        "previews/keetrax-20260818-00001/ref_01.jpg",
+        "previews/keetrax-20260818-00001/gen_01.png"
       ],
-      "reverse_engineered_from": "User-supplied Froyk skincare ad reference, August 2026",
-      "added_at": "2026-08-13"
+      "reverse_engineered_from": "User-provided construction trade social ad, August 2026",
+      "added_at": "2026-08-18"
     }
   ]
 }
