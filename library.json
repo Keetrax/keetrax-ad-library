@@ -6256,6 +6256,58 @@
       ],
       "reverse_engineered_from": "User-provided construction trade social ad, August 2026",
       "added_at": "2026-08-18"
+    },
+    {
+      "id": "keetrax-20260924-00001",
+      "source": "keetrax",
+      "name": "Wet & Forget AU — Open BBQ Product Hero",
+      "description": "Hyperreal 4:5 Shower Witch product hero on a BBQ side shelf with the hood open and clean grill visible. Wet & Forget AU bottle reference supplied by Phoebe Restieaux. Concept approved for library; preview is NOT publish-ready because generated small label text is incorrect.",
+      "prompt": "Generate a single coherent hyperreal commercial lifestyle photograph, portrait 4:5. The attached image is the authoritative Shower Witch product reference. Depict that exact bright golden-yellow 2-litre Wet & Forget Shower Witch container physically standing on the stainless-steel side shelf of an outdoor BBQ in a outdoor residential backyard. Reproduce its distinctive integrated top-left handle, white top-right screw cap, white nozzle clipped in the left recess, front-facing navy night-sky label with witch silhouette over a yellow moon, and label title “Shower Witch” accurately. Preserve the bottle proportions, colours, typography and packaging details as closely as the reference allows. Do not mirror the label. This is a photograph of one real object in one real scene, with physically consistent perspective, softbox-style studio key light, gentle rim light, outdoor ambient daylight, natural contact shadow and reflections.\n\nThe BBQ hood is fully open in the background; its clean, spotless metal grill is visible immediately behind the bottle. The product is centred, large in the frame, fully visible, and sharper than everything else. Camera at product height, restrained depth of field. A softly blurred contemporary residential home and native greenery signal the outdoor setting. No people, food, flame, smoke, headline, captions, badges or other added text. The product is the unmistakable hero.\n",
+      "category": "product-photo",
+      "product_types": [
+        "home-improvement",
+        "cleaning-products"
+      ],
+      "client": "Wet & Forget AU",
+      "client_slug": "wet-and-forget-au",
+      "product": "Shower Witch 2L",
+      "production_note": "Use the correct AU product pack reference for every new generation. The saved preview is a composition reference only: its generated label slogan is wrong and must not be published or reused as a finished ad. Generate a single integrated photograph, not a pasted product/label composite. Inspect all visible label text at full resolution before approval.",
+      "approval_status": "concept-only; preview rejected for label-text error",
+      "approved_by": "Phoebe Restieaux requested library addition in Studio Slack conversation, 2026-09-24",
+      "prompt_parameters": {
+        "aspect_ratio": "4:5",
+        "image_size": "2K",
+        "reference": "supplied AU Shower Witch 2L packshot",
+        "added_copy": "none"
+      },
+      "tags": [
+        "lifestyle",
+        "centered",
+        "photorealistic",
+        "bbq",
+        "clean-grill",
+        "outdoor",
+        "product-hero",
+        "studio-lighting",
+        "wet-and-forget-au",
+        "concept-only"
+      ],
+      "mood": [
+        "clean",
+        "premium",
+        "natural"
+      ],
+      "use_cases": [
+        "product-awareness",
+        "organic-social"
+      ],
+      "layout": "centered-product-on-bbq-side-shelf",
+      "text_density": "product-label-only",
+      "preview_images": [
+        "previews/keetrax-20260924-00001/concept_rejected_label_v3.jpg"
+      ],
+      "reverse_engineered_from": "Original Wet & Forget AU Shower Witch BBQ scene brief supplied by Phoebe Restieaux, September 2026",
+      "added_at": "2026-09-24"
     }
   ]
 }
